@@ -36,7 +36,7 @@ Team Yellow: Aaron Scheet, Amy Velasquez, Natalee Turner, Rachel McKinnon, Jeffr
 - Week 4: 9
 
 Meeting Schedule:
-Week 1: Mon. (1/3)  7-9pm, Wed. (1/5)  7-9pm, Fri. (1/7)  6-8pm, Sun. (1/9)  3-4:30pm
-Week 2: Mon. (1/10) 7-9pm, Wed. (1/12) 7-9pm, Fri. (1/14) 6-8pm, Sun. (1/16) 3-4:30pm
-Week 3: Mon. (1/17) 7-9pm, Wed. (1/19) 7-9pm, Fri. (1/21) 6-8pm, Sun. (1/23) 3-4:30pm
-Week 4: Mon. (1/24) 7-9pm, Wed. (1/26) 7-9pm, Fri. (1/28) 6-8pm, Sun. (1/30) 3-4:30pm
+ - Week 1: Mon. (1/3)  7-9pm, Wed. (1/5)  7-9pm, Fri. (1/7)  6-8pm, Sun. (1/9)  3-4:30pm
+ - Week 2: Mon. (1/10) 7-9pm, Wed. (1/12) 7-9pm, Fri. (1/14) 6-8pm, Sun. (1/16) 3-4:30pm
+ - Week 3: Mon. (1/17) 7-9pm, Wed. (1/19) 7-9pm, Fri. (1/21) 6-8pm, Sun. (1/23) 3-4:30pm
+ - Week 4: Mon. (1/24) 7-9pm, Wed. (1/26) 7-9pm, Fri. (1/28) 6-8pm, Sun. (1/30) 3-4:30pm
