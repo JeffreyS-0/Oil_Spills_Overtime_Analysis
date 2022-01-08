@@ -2,38 +2,40 @@
 Team Yellow: Aaron Scheet, Amy Velasquez, Natalee Turner, Rachel McKinnon, Jeffrey Sykora
 
 ## Topic: Oil Spills Overtime
-- What is the main cause of oil spills?
+- What are the major contributing factors that cause an incident to occur?
 - Where do most oil spills occur?
-- How does weather effect an oil spill?
+- What percentage of total incidents were due to weather? How does weather effect the severity of an oil spill? 
 - How many oils spills were caused by accidents such as construction? And how can they be prevented going forward?
-- Is it possible to predict possible future oil spills?
 
 ## Tech Stack:
 - Python
 - Stats Model Library
-- Plotly
-- SQL
+- MatplotLib
+- R
 - JavaScript
+- Plotly
 - HTML
 - GLM
 - Linear Regression Modeling
+- Excel
 
 ## Deliverables:
 - 1. Clean Hazardous Liquid Accident Datasets from the Pipeline & Hazardous Materials Safety Administration section on the U.S. Department of Transportation website.
-- 2. After cleaning, join old data sets (Pre 1986 through 2002) and new data sets (2002-Present) in SQL.
-- 3. After joining tables, parse through them to provide smaller tables of information regarding question topics.
+- 2. Create an outline of parts of tables that we will join together for further analysis.
+- 3. Join information from tables regarding question topics.
 - 4. Export table dataframes into python and create Plotly graphs and maps.
 - 5. Maps should show locations of oil spills from 2002-Present with the severity of each oil spill having a larger circle on the map, graphs and tables can provide information on Pre 2002 Oil Spills.
-- 6. Can create a heatmap for certain locations (either by Country/State) to show severity of oil spills over a period of time.
-- 7. Use linear regression and glm as machine learning techniques to provide information on the relationship of an oil spill occuring dependent on pipe corrosion/outside pressure on the pipe.
-- 8. Create interactive webpage using javascript and html.
-- 9. Put together presentation to present to the class.
+- 6. Can create a heatmap for certain locations (State) to show severity of oil spills over a period of time.
+- 7. Describe statistics, identify most important factors. 
+- 8. Use logistic regression and glm as machine learning techniques to provide information on the relationship of an oil spill occuring dependent on pipe corrosion & age of the pipe.
+- 9. Create interactive webpage using javascript and html. 3 tabs: Map(Severity of Oil Spill), Model(dashboard), Description and Stats.
+- 10. Put together presentation to present to the class.
 
 ## Timeline:
 - Week 1: Deliverable 1, 2
 - Week 2: Deliverable 3, 4, 5, 6
-- Week 3: Deliverable 7, 8
-- Week 4: 9
+- Week 3: Deliverable 7, 8, 9
+- Week 4: 10
 
 Meeting Schedule:
  - Week 1: Mon. (1/3)  7-9pm, Wed. (1/5)  7-9pm, Fri. (1/7)  6-8pm, Sun. (1/9)  3-4:30pm
