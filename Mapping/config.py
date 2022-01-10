@@ -1,0 +1,4 @@
+
+g_map="AIzaSyD9dnnFJ7y2mLsqskLSgcSqchKc96xySyU"
+
+weather_api_key="91764918666ab1f4de632699f8603036"
