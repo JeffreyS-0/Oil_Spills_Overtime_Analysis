@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 Data_columns_and_spills.xlsx
 config.py
-
+spill2010_df.json
 # C extensions
 *.so
 

@@ -5,10 +5,10 @@ function init() {
   var selector = d3.select("#selDataset");
 
   // Use the list of sample names to populate the select options
-  d3.json("samples.json").then((data) => {
-    var sampleNames = data.names;
+  d3.json("Resources/spill2010_df.json").then((data) => {
+    var cause = data.CAUSE;
 
-    sampleNames.forEach((sample) => {
+    cause.forEach((sample) => {
       selector
         .append("option")
         .text(sample)
@@ -16,7 +16,7 @@ function init() {
     });
 
     // Use the first sample from the list to build the initial plots
-    var firstSample = sampleNames[0];
+    var firstSample = cause[0];
     buildCharts(firstSample);
     buildMetadata(firstSample);
   });
@@ -34,15 +34,15 @@ function optionChanged(newSample) {
 
 // Demographics Panel 
 function buildMetadata(sample) {
-  d3.json("samples.json").then((data) => {
-    var metadata = data.metadata;
+  d3.json("Resources/spill2010_df.json").then((data) => {
+    var CAUSE = data.CAUSE;
     
     // Filter the data for the object with the desired sample number
-    var resultArray = metadata.filter(sampleObj => sampleObj.id == sample);
+    var resultArray = CAUSE.filter(CAUSEObj => CAUSEObj.id == CAUSE);
     var result = resultArray[0];
     
     // Use d3 to select the panel with id of `#sample-metadata`
-    var PANEL = d3.select("#sample-metadata");
+    var PANEL = d3.select("#sample-CAUSE");
 
     
     // Use `.html("") to clear any existing metadata
@@ -60,32 +60,32 @@ function buildMetadata(sample) {
 
 // DELIVERABLE 1: Create a Horizontal Bar Chart
 // 1. Create the buildCharts function
-function buildCharts(sample) {
+function buildCharts(CAUSE) {
 
   // 2. Use d3.json to load and retrieve the samples.json file 
-  d3.json("samples.json").then((data) => {
+  d3.json("Resources/spill2010_df.json").then((data) => {
 
     // 3. Create a variable that holds the samples array. 
-    var samples = data.samples;
+    var CAUSE = data.CAUSE;
 
     // 4. Create a variable that filters the samples for the object with the desired sample number
-    var resultArray = samples.filter(sampleObj => sampleObj.id == sample);
+    var resultArray = CAUSE.filter(CAUSEObj => CAUSEObj.id == CAUSE);
 
     //  5. Create a variable that holds the first sample in the array.
     var result = resultArray[0];
 
     // 6. Create variables that hold the otu_ids, otu_labels, and sample_values.
-    var  ids = result.otu_ids;
-    var labels = result.otu_labels.slice(0, 10).reverse();
-    var values = result.sample_values.slice(0,10).reverse();
+    var  idscause = result.CAUSE;
+    var labels = result.CAUSE.slice(0, 10).reverse();
+    var values = result.CAUSE.slice(0,10).reverse();
 
-    var bubbleLabels = result.otu_labels;
-    var bubbleValues = result.sample_values;
+    var bubbleLabels = result.CAUSE;
+    var bubbleValues = result.CAUSE;
 
     // 7. Create the yticks for the bar chart
     // Hint: Get the the top 10 otu_ids and map them in descending order  
     //  so the otu_ids with the most bacteria are last
-    var yticks = ids.map(sampleObj => "OTU " + sampleObj).slice(0,10).reverse();
+    var yticks = ids.map(CAUSEObj => "CAUSE " + CAUSEObj).slice(0,10).reverse();
     console.log(yticks)
 
     // 8. Create the trace for the bar chart
@@ -99,7 +99,7 @@ function buildCharts(sample) {
 
     // 9. Create the layout for the bar chart
     var barLayout = {
-     title: "Top 10 Bacteria Cultures Found"
+     title: "Top 10 Failure Modes"
     };
 
     // 10. Use Plotly to plot the data with the layout 
