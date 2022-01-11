@@ -3,9 +3,13 @@ config.js
 __pycache__/
 *.py[cod]
 *$py.class
-config.py
+
 Data_columns_and_spills.xlsx
+config.py
+spill2010_df.json
+config.py
 config.js
+
 
 # C extensions
 *.so
