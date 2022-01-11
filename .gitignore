@@ -1,10 +1,16 @@
 # Byte-compiled / optimized / DLL files
+config.js
 __pycache__/
 *.py[cod]
 *$py.class
+
 Data_columns_and_spills.xlsx
 config.py
 spill2010_df.json
+config.py
+config.js
+
+
 # C extensions
 *.so
 
@@ -129,3 +135,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Ignore csv files
+*.csv
