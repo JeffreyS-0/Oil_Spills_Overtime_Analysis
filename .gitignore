@@ -2,6 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
+Data_columns_and_spills.xlsx
+config.py
 
 # C extensions
 *.so
