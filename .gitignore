@@ -1,4 +1,5 @@
 # Byte-compiled / optimized / DLL files
+config.js
 __pycache__/
 *.py[cod]
 *$py.class
@@ -130,3 +131,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Ignore csv files
+*.csv
