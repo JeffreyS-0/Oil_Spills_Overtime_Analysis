@@ -1,62 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
+<table class="charts-css [ column ] [ show-primary-axis show-4-secondary-axes ] [ data-spacing-4 reverse-data ]">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Oil Spills title</title>
-  <link 
-    rel="stylesheet" 
-    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link 
-  rel ="stylesheet" 
-  href="css/style.css">
-</head>
-
-<body>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 jumbotron text-center">
-        <h1>Oil Spills by Cause</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="col-md-2">
-          <div class="well">
-          <h5>Test Subject ID No.:</h5>
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
-        </div>
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Demographic Info</h3>
-          </div>
-          <div id="sample-metadata" class="panel-body"></div>
-        </div>
-      </div>
-      
-      <div class="col-md-5">
-        <div id="bar"></div>
-      </div>
-      <div class="col-md-5">
-        <div id="gauge"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div id="bubble"></div>
-      </div>
-    </div>
-  </div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="charts.js"></script>
-
-
-</body>
-
-</html>
+    <caption> Front End Developer Salary </caption>
+  
+    <thead>
+      <tr>
+        <th scope="col"> Year </th>
+        <th scope="col"> Income </th>
+      </tr>
+    </thead>
+  
+    <tbody>
+      <tr>
+        <th scope="row"> 2016 </th>
+        <td style="--size: calc( 40 / 100 );"> $ 40K </td>
+      </tr>
+      <tr>
+        <th scope="row"> 2017 </th>
+        <td style="--size: calc( 60 / 100 );"> $ 60K </td>
+      </tr>
+      <tr>
+        <th scope="row"> 2018 </th>
+        <td style="--size: calc( 75 / 100 );"> $ 75K </td>
+      </tr>
+      <tr>
+        <th scope="row"> 2019 </th>
+        <td style="--size: calc( 90 / 100 );"> $ 90K </td>
+      </tr>
+      <tr>
+        <th scope="row"> 2020 </th>
+        <td style="--size: calc( 100 / 100 );"> $ 100K <br> 👑 </td>
+      </tr>
+    </tbody>
+  
+  </table>
