@@ -9,7 +9,9 @@ config.py
 spill2010_df.json
 config.py
 config.js
-
+.DS_Store
+build
+node_modules
 
 # C extensions
 *.so
