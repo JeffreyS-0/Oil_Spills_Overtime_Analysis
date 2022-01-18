@@ -14,28 +14,32 @@
   href="static/css/style.css">
 </head>
 <header>
-	<div id="homeFullScreen">
+	<div class="jumbotron">
 		<div class="header-text">
-			<h1>UT Data Analytics and Visulizations</h1>
+			<h1>UT Data Analytics and Visualizations</h1>
 			<div class="vertical-line"></div>
 			<p>
 				Team Yellow 
 				<br />
-				Using Machine Learing to predict failures of pipelines...
+				Using Machine Learning to predict failures of pipelines...
 			</p>
 		</div><!-- End HeaderText -->
 	</div><!-- End homeFullScreen -->
 </header><!-- End Header -->
-<header>
-  <nav>
-      <ul>
-          <li>Home</li>
-          <li><a href= "map.html">Interactive Spill Map</a> </li>
-          <li>Spill Stats Charts</li>
-          <li>Unsupervised Machine Learning</li>
 
-      </ul>
-  </nav>
+<!-- Tab Links-->
+<div class="tab">
+	<nav>
+		<ul>
+			<li>
+				<button class="tablinks" onclick="goToHome()" value="Home">Home</button>
+				<button class="tablinks" onclick="ISM()" value="Interactive Spill Map">Interactive Spill Map</button>
+				<button class="tablinks" onclick="SSC()" value="Spill Stats Charts">Spill Stats Charts</button>
+				<button class="tablinks" onclick="ML()" value="Unsupervised Machine Learning">Unsupervised Machine Learning</button>
+			</li>
+		</ul>
+	</nav>
+</div>
 </header>
 <!-- Feature -->
 
@@ -119,11 +123,6 @@
 	</div><!-- End container -->
 </section>
 <body>
-    
-
-    
-    
-      
       <div class="col-md-5">
         <div id="bar"></div>
       </div>
@@ -163,6 +162,8 @@
 
 <!-- Custom JS -->
 <script type="text/javascript" src="static/js/custom.js"></script>
+
+<script type="text/javascript" src="static/js/buttons.js"></script>
 
 </body>
 
