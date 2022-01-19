@@ -1,3 +1,7 @@
+*.csv
+*.xlsx
+*.json
+
 # Byte-compiled / optimized / DLL files
 config.js
 __pycache__/
