@@ -42,6 +42,16 @@ print(f'Incidents where pressure did exceed max operating pressure but not 110% 
 pressure_exceed_percent = df['ACCIDENT_PRESSURE'].loc[df['ACCIDENT_PRESSURE'] == 'PRESSURE EXCEEDED 110% OF MOP'].count() / df['ACCIDENT_PRESSURE'].count()
 print(f'Incidents where pressure exceeded 110% of max operating pressure: {pressure_exceed_percent:.2%}')
 
+# Create a table of the percentage data
+table_df = pd.DataFrame({
+    "Injuries": f'{injury_percent:.2%}',
+    "Fatalities": f'{fatal_percent:.2%}',
+    "Water Contamination": f'{water_contam_percent:.2%}',
+    "Pressure did not Exceed Max": f'{pressure_not_exceed_percent:.2%}',
+    "Pressure Exceeded Max but not 110% of Max": f'{pressure_not_exceed_oneten_percent:.2%}',
+    "Pressure Exceeded Max": f'{pressure_exceed_percent:.2%}'}, index=['Percentage'])
+table_df
+
 # Group_by cause and create boxplots of cost
 # Remove outliers
 df = df.loc[df['TOTAL_EST_COST'] < 1000000]
@@ -113,5 +123,3 @@ ax.boxplot(year_data, labels=xlabels, showfliers=False, showmeans=True)
 plt.xticks(rotation=60)
 ax.grid()
 plt.show()
-
-# heatmap for time of day incidents occur most frequently
