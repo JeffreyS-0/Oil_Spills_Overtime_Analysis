@@ -38,7 +38,7 @@ Plotly.d3.json(data_json, Data => {
         }                
         let layout = {
             // hovermode: false,
-            title: "<b>Total Oil Spills per Year (1968 to 2021)</b>",
+            title: "<b>Total Oil Spills Vs Oil Production per Year (1968 to 2021)</b>",
             yaxis:{title: "Total Oil Spills",
                 titlefont: {color: 'rgb(255, 127, 14 )'},
                 tickfont: {color: 'rgb(255, 127, 14 )'},
@@ -78,17 +78,13 @@ Plotly.d3.json(data_json, Data => {
                   y: '458',
                   xref: 'x',
                   yref: 'y',
-                  text: 'New Rules 2002',
+                  text: 'Pipeline Safety Improvement Act 2002 <a href=”https://www.osha.gov/laws-regs/regulations/standardnumber/1981/1981.102"/>',
+                  
                   showarrow: true,
                   arrowhead: 7,
                   ax: 0,
                   ay: -40
                 }]
-            // legend: {
-            //     x: 3,
-            //     xanchor: 'left',
-            //     y: 1
-            // }
         };
         var config = {responsive:true}
         Plotly.newPlot('plot', [trace1, trace2, trace3, trace4], layout, {displayModeBar:false}, config) 
