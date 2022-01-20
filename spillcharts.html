@@ -14,10 +14,24 @@
     <!-- The CSS -->
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
 
+    <script src='https://d3js.org/d3.v5.min.js'></script>
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
 </head>
-<div class="jumbotron">
 
-</div>
+<header>
+    <div class="jumbotron">
+        <div class="header-text">
+            <h1>UT Data Analytics and Visualizations</h1>
+            <div class="vertical-line"></div>
+            <p>
+                Team Yellow 
+                <br />
+                Statistics and Visualizations About Oil Spills
+            </p>
+        </div><!-- End HeaderText -->
+    </div><!-- End homeFullScreen -->
+</header><!-- End Header -->
+
 <div class="tab">
 	<nav>
 		<ul>
@@ -30,8 +44,81 @@
 		</ul>
 	</nav>
 </div>
-<body>
 
+<!-- Pie Chart -->
+<section class="feature">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div id='pie_chart'></div>
+                <script src='Analysis/Pie.js'></script>
+            </div>
+        </div>
+    </div>
+
+<!-- Stats Charts -->
+<section class="feature">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<div class="feature-box">
+					<h1>Some Interesting Statistics</h1>
+					<p>Disclaimer: The data found for this project was pulled from the Department of Transportation website. From the year 2010 on, the data was cleaner and more consistent, so this page uses data points from the year 2010 until November 2021.
+            <p> Hello, my name is Mulan and this a blurb about statistics.</p>
+        </p>
+				</div>
+			</div><!-- End col-md-6 -->
+			<div class="col-md-6 col-sm-6 nopadding">
+				
+        <img src="Analysis/Images/percentages_table.png"></a>
+			</div><!-- End col-md-6 -->
+
+			<div class="clearfix"></div><!-- End clearfix -->
+            
+            <div class="col-md-6 col-sm-6">
+				<div class="feature-box">
+					<h1>Water Contamination</h1>
+					<p> When looking at the percentage of times an incident led to water contamination, the question arises, what was the water contaminated with? The image above displays the types of chemicals involved.</p>
+        
+				</div>
+			</div><!-- End col-md-6 -->
+			<div class="col-md-6 col-sm-6 nopadding">
+				<img src="Analysis/Images/water_contamination_table.png">
+        </div><!-- End col-md-6 -->
+		</div>
+
+<!-- Stats Plots -->
+<section class="feature">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<div class="feature-box">
+					<h1> Cause Boxplot</h1>
+					<p>Disclaimer: The data found for this project was pulled from the Department of Transportation website. From the year 2010 on, the data was cleaner and more consistent, so this page uses data points from the year 2010 until November 2021.
+            <p> Hello, my name is Mulan and this a blurb about statistics.</p>
+        </p>
+				</div>
+			</div><!-- End col-md-6 -->
+			<div class="col-md-6 col-sm-6 nopadding">
+				
+        <img src="Analysis/Images/cause_boxplot.png"></a>
+			</div><!-- End col-md-6 -->
+
+			<div class="clearfix"></div><!-- End clearfix -->
+            
+            <div class="col-md-6 col-sm-6">
+				<div class="feature-box">
+					<h1>Year Boxplot</h1>
+					<p> When looking at the percentage of times an incident led to water contamination, the question arises, what was the water contaminated with? The image above displays the types of chemicals involved.</p>
+        
+				</div>
+			</div><!-- End col-md-6 -->
+			<div class="col-md-6 col-sm-6 nopadding">
+				<img src="Analysis/Images/year_boxplot.png">
+        </div><!-- End col-md-6 -->
+		</div>
+
+<body>
 
     <!-- Leaflet JavaScript -->
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
