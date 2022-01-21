@@ -49,6 +49,12 @@
 <section class="feature">
     <div class="container">
         <div class="row">
+            <div class="col-md-6 col-sm-6">
+				<div class="feature-box">
+					<h1>Interactive Pie Chart</h1>
+					<p><b>What types of oil spills are there and which happen most often?</b>
+                    <p>Hover your mouse over any slice on the Cause by Incident pie chart below! A box appears to explain what oil spill cause that slice represents, how many incidents there were(out of 4,640), and the percentage of that cause from the total.</p>
+                    </p>
             <div class="col-md-12 col-sm-12">
                 <div id='pie_chart'></div>
                 <script src='Analysis/Pie.js'></script>
@@ -62,9 +68,10 @@
 		<div class="row">
 			<div class="col-md-6 col-sm-6">
 				<div class="feature-box">
-					<h1>Some Interesting Statistics</h1>
-					<p>Disclaimer: The data found for this project was pulled from the Department of Transportation website. From the year 2010 on, the data was cleaner and more consistent, so this page uses data points from the year 2010 until November 2021.
-            <p> Hello, my name is Mulan and this a blurb about statistics.</p>
+					<h1>Interesting Statistics About Oil Spills</h1>
+					<p><small>Disclaimer: The data found for this project was pulled from the Department of Transportation website. From the year 2010 on, the data was cleaner and more consistent, so (aside from the Year Boxplot) this page uses data points from the year 2010 until November 2021.</small>
+            <p><b>How dangerous are oil spills?</b></p>
+            <p>When thinking about the consequences of oil spills, questions of safety come to mind. Are workers hurt? Is the environment hurt? The table answers these questions and others by showing how often this occurred in about 4,640 incidents. </p>
         </p>
 				</div>
 			</div><!-- End col-md-6 -->
@@ -78,7 +85,8 @@
             <div class="col-md-6 col-sm-6">
 				<div class="feature-box">
 					<h1>Water Contamination</h1>
-					<p> When looking at the percentage of times an incident led to water contamination, the question arises, what was the water contaminated with? The image above displays the types of chemicals involved.</p>
+					<p> When looking at the percentage of times an incident led to water contamination, you may think to yourself, what was the water contaminated with? 
+                        The table shows what types of oils were involved and in how many incidents since 2010.</p>
         
 				</div>
 			</div><!-- End col-md-6 -->
@@ -94,9 +102,12 @@
 			<div class="col-md-6 col-sm-6">
 				<div class="feature-box">
 					<h1> Cause Boxplot</h1>
-					<p>Disclaimer: The data found for this project was pulled from the Department of Transportation website. From the year 2010 on, the data was cleaner and more consistent, so this page uses data points from the year 2010 until November 2021.
-            <p> Hello, my name is Mulan and this a blurb about statistics.</p>
-        </p>
+					<p><b>What is a boxplot?</b>
+                    <p>A boxplot is used to depict the range of a dataset and some statistical qualities about it. You will find things like the mean, median, quartile ranges, and minimum and maximum displayed in a boxplot. Within the boxes, you will see a blue line at the center which shows the median of the data. The small green triangles represent the mean. The box displays the interquartile range, and the attached whiskers on top and bottom of the box show the minimum and maximums of the data (excluding outliers).
+                    </br><small>Please note: Outliers were removed for cleaner data and better visuals. </small></p>
+                    <p><b>Cause Boxplot</b>
+                    <p>For the plot below, we are looking at the cost of incidents. The data is split into 8 categories so that we can visually compare between the cost of events with different causes. At first glance, it is evident that oil spills caused by excavation damage have the highest maximum. However, the true maximum of the entire dataset is an outlier in the 'Material Failure of Pipe or Weld' category that cost $840,526,118. </p>
+                    </p>
 				</div>
 			</div><!-- End col-md-6 -->
 			<div class="col-md-6 col-sm-6 nopadding">
@@ -109,8 +120,9 @@
             <div class="col-md-6 col-sm-6">
 				<div class="feature-box">
 					<h1>Year Boxplot</h1>
-					<p> When looking at the percentage of times an incident led to water contamination, the question arises, what was the water contaminated with? The image above displays the types of chemicals involved.</p>
-        
+					<p>This plot, like the Cause Boxplot, shows cost of oil spill incidents. The data here is split into ranges of 10-year periods. It is worth mentioning that the wild outlier we talked about before which cost $840,526,118 would have fallen into the 2001-2010 category as it occurred on 07/25/2010.
+                    </br><small>Please note: Cost is not adjusted for inflation. </small>
+                    </p>
 				</div>
 			</div><!-- End col-md-6 -->
 			<div class="col-md-6 col-sm-6 nopadding">
