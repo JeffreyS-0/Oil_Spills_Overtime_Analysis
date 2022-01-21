@@ -15,7 +15,8 @@ var trace = {
     type: 'pie'
 };
 
-var data = [trace]
+var data = [trace];
+
 var layout = {
     title: 'Cause by Incident (2010 - November 2021)',
 };
