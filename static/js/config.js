@@ -1,0 +1,6 @@
+
+const g_map="AIzaSyAH2jh11SUZnUac0wUEeBgeCKdo5hcHHwI"
+
+const API_Key="pk.eyJ1IjoianN5a29yYTIwIiwiYSI6ImNrdnJoMzlxODgxemwybnExNWl5cmt1a2IifQ.SMBIs7ZypRn3UzVoIkdxng"
+
+weather_api_key="91764918666ab1f4de632699f8603036"
