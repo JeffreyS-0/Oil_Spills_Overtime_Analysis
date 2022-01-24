@@ -14,31 +14,54 @@
     <!-- The CSS -->
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
 
-</head>
-<div class="jumbotron">
+    <!-- Plotly and d3-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- <script src="plotly-2.8.3.min.js"></script> -->
+    <!-- <script src="https://d3js.org/d3.v7.min.js%22%3E"></script>  charset="utf-8"></script> -->
+    <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
 
-</div>
-<div class="tab">
-	<nav>
-		<ul>
-			<li>
-				<button class="tablinks" onclick="goToHome()" value="Home">Home</button>
-				<button class="tablinks" onclick="ISM()" value="Interactive Spill Map">Interactive Spill Map</button>
-				<button class="tablinks" onclick="SSC()" value="Spill Stats Charts">Spill Stats Charts</button>
-				<button class="tablinks" onclick="ML()" value="Unsupervised Machine Learning">Unsupervised Machine Learning</button>
-			</li>
-		</ul>
-	</nav>
-</div>
+</head>
+    <div class="jumbotron">
+
+    </div>
+    <div class="tab">
+        <nav>
+            <ul>
+                <li>
+                    <button class="tablinks" onclick="goToHome()" value="Home">Home</button>
+                    <button class="tablinks" onclick="ISM()" value="Interactive Spill Map">Interactive Spill Map</button>
+                    <button class="tablinks" onclick="SSC()" value="Spill Stats Charts">Spill Stats Charts</button>
+                    <button class="tablinks" onclick="ML()" value="Unsupervised Machine Learning">Unsupervised Machine Learning</button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <section class="feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="feature-box">
+                        <h1>Unsupervised Machine Learning Model Clusters</h1>
+                        <p><b>The cause, age, and pressure data was grouped into 4 clusters</b>
+                        <p>Hover your mouse over each datapoint to see the cause, age, and pressure information.</p>
+                        </p>
+                <div class="col-md-12 col-sm-12">
+                    <div id='scatter3d'></div>
+                    <script src='Resources/ml_data.js'></script>
+                    <script src='static/js/machcharts.js'></script>
+                </div>
+            </div>
+        </div>
 <body>
     
-
-
     <!-- Leaflet JavaScript -->
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
     integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
     crossorigin=""></script>
     
+    <!-- Our JavaScript -->
     <script type="text/javascript" src="static/js/buttons.js"></script>
 </body>
 </html>
