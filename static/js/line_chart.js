@@ -30,7 +30,7 @@ Plotly.d3.json(data_json, Data => {
         };               
         let layout = {
             // hovermode: false,
-            title: "<b>Total Oil Spills vs Total Brrels of Production per Year (1968 to 2021)</b>",
+            title: "<b>Total Oil Spills vs Total Barrels of Production per Year (1968 to 2021)</b>",
             yaxis:{
                 title: "<b>Total Oil Spills</b>",
                 titlefont: {color: 'rgb(255, 127, 14 )'},
