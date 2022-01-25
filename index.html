@@ -5,46 +5,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>US Oil Spills</title>
+  
   <link 
     rel="stylesheet" 
-    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link 
   rel ="stylesheet" 
+  type="text/css"
   href="static/css/style.css">
+  <link
+  rel="stylesheet"
+  href="static\css\bootstrap.css">
+  <link
+  rel="icon"
+  href="static\images\Header3.jpg">
+  <style id="plotly.js-style-global"></style>
   <script src="https://d3js.org/d3.v7.min.js"></script> 
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
-<header>
-	<div class="jumbotron">
-		<div class="header-text">
-			<h1>Exploratory Analysis on U.S. Oil Spill Data</h1>
-			<div class="vertical-line"></div>
-			<p>
-				Team Yellow: Amy Velasquez, Natalee Turner, Aaron Scheet, Rachel McKinnon, Jeff Sykora
-				<br />
-				UT Data Analytics and Visualizations
-			</p>
-		</div><!-- End HeaderText -->
-	</div><!-- End homeFullScreen -->
-</header><!-- End Header -->
-
-<!-- Tab Links-->
-<div class="tab">
-	<nav>
-		<ul>
-			<li>
-				<button class="tablinks" onclick="goToHome()" value="Home">Home</button>
-				<button class="tablinks" onclick="ISM()" value="Interactive Spill Map">Interactive Spill Map</button>
-				<button class="tablinks" onclick="SSC()" value="Spill Stats Charts">Spill Stats Charts</button>
-				<button class="tablinks" onclick="ML()" value="Unsupervised Machine Learning">Unsupervised Machine Learning</button>
-			</li>
-		</ul>
-	</nav>
-</div>
-<!-- </header> -->
 <!-- Feature -->
 <body>
+	<div class="header">
+		<h1 class="main-title">Exploratory Analysis on Oil Spill Data</h1>
+		<nav class="navigation">
+			<ul>
+				<li class="nav-list">
+					<a href="index.html"
+						::before>
+						Home
+					</a>
+				</li>
+				<li class="nav-list">
+					<a href="map.html"
+						::before>
+						Interactive Spill Map
+					</a>
+				</li>
+				<li class="nav-list">
+					<a href="spillcharts.html"
+						::before>
+						Spill Stats Charts
+					</a>
+				</li>
+				<li class="nav-list">
+					<a href="machlearn.html"
+						::before>
+						Machine Learning Model
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<br>
+	<br>
 <section class="feature">
 	<div class="container">
 		<div class="row">
@@ -52,22 +65,22 @@
 				<div class="feature-box">
 					<h1>US Liquid Spills</h1>
 					<p>The interactive map to the left plots liquid spill data reported to the Pipeline and Hazardous Materials Safety Administration (PHMSA).  
-            		<p> PHSMA is a United States Department of Transportation agency created in 2004, responsible for developing and enforcing regulations for the safe, reliable, and environmentally sound operation of the US's 2.6 million mile pipeline transportation. It is responsible for nearly 1 million daily shipments of hazardous materials by land, sea, and air. It oversees the nation's pipeline infrastructure, which accounts for 64 percent of the energy commodities consumed in the United States.</p>
+					<p> PHSMA is a United States Department of Transportation agency created in 2004, responsible for developing and enforcing regulations for the safe, reliable, and environmentally sound operation of the US's 2.6 million mile pipeline transportation. It is responsible for nearly 1 million daily shipments of hazardous materials by land, sea, and air. It oversees the nation's pipeline infrastructure, which accounts for 64 percent of the energy commodities consumed in the United States.</p>
 					<p>More than 220,000 miles of liquid petroleum pipelines traverse the United States. They connect producing areas to refineries and chemical plants while delivering the products American consumers and businesses need. Pipelines are safe, efficient and, because most are buried, largely unseen. They move crude oil from oil fields on land and offshore to refineries where it is turned into fuels and other products, then from the refineries to terminals where fuels are trucked to retail outlets. Pipelines operate 24 hours a day, seven days a week.</p>
-    			</div>
+				</div>
 			</div><!-- End col-md-6 -->
 			<div class="col-md-6 col-sm-6 nopadding">
 				<img src="static/images/map-link.png"></a>
 			</div><!-- End col-md-6 -->
 			<div class="col-md-6 col-sm-6 nopadding">
 				<img src="static/images/1a.jpg">
-        	</div><!-- End col-md-6 -->
-			<!-- <div class="col-md-6 col-sm-6">
-				<div class="feature-box">
-					<h1>US Liquid Spills2</h1>
-					<p>More than 220,000 miles of liquid petroleum pipelines traverse the United States. They connect producing areas to refineries and chemical plants while delivering the products American consumers and businesses need. Pipelines are safe, efficient and, because most are buried, largely unseen. They move crude oil from oil fields on land and offshore to refineries where it is turned into fuels and other products, then from the refineries to terminals where fuels are trucked to retail outlets. Pipelines operate 24 hours a day, seven days a week.</p>
-        		</div>
-			</div> End col-md-6 -->
+			</div><!-- End col-md-6 -->
+				<!-- <div class="col-md-6 col-sm-6">
+					<div class="feature-box">
+						<h1>US Liquid Spills2</h1>
+						<p>More than 220,000 miles of liquid petroleum pipelines traverse the United States. They connect producing areas to refineries and chemical plants while delivering the products American consumers and businesses need. Pipelines are safe, efficient and, because most are buried, largely unseen. They move crude oil from oil fields on land and offshore to refineries where it is turned into fuels and other products, then from the refineries to terminals where fuels are trucked to retail outlets. Pipelines operate 24 hours a day, seven days a week.</p>
+					</div>
+				</div> End col-md-6 -->
 		</div>
 	</div>
 	<div class="row">
@@ -75,14 +88,14 @@
 	</div>
 	<script src="static/js/line_chart.js"></script>
 </section>
-
+	
 <section class="portfolio">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<h1 class="heading">Images</h1>
 			</div><!-- End col-md-12 -->
-
+	
 			<div class="col-md-4 col-sm-4">
 				<img src="static/images/1.jpg">
 			</div><!-- End col-md-4 -->
@@ -92,9 +105,9 @@
 			<div class="col-md-4 col-sm-4 last-img">
 				<img src="static/images/3.jpg">
 			</div><!-- End col-md-4 -->
-
+	
 			<div class="clearfix"></div><!-- End clearfix -->
-
+	
 			<div class="col-md-4 col-sm-4">
 				<img src="static/images/4.jpg">
 			</div><!-- End col-md-4 -->
@@ -121,25 +134,25 @@
 		</div><!-- End row -->
 	</div><!-- End container -->
 </section>
-<!-- <body> -->
-      <!-- <div class="col-md-5">
-        <div id="bar"></div>
-      </div>
-      <div class="col-md-5">
-        <div id="gauge"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div id="bubble"></div>
-      </div>
-    </div>
-  </div>
-   -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="charts.js"></script>
-
+	<!-- <body> -->
+		  <!-- <div class="col-md-5">
+			<div id="bar"></div>
+		  </div>
+		  <div class="col-md-5">
+			<div id="gauge"></div>
+		  </div>
+		</div>
+		<div class="row">
+		  <div class="col-md-12">
+			<div id="bubble"></div>
+		  </div>
+		</div>
+	  </div>
+	   -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	<script src="charts.js"></script>
+	
 <!-- Footer -->
 <footer>
 	<ul class="in-line">
@@ -161,8 +174,6 @@
 
 <!-- Custom JS -->
 <script type="text/javascript" src="static/js/custom.js"></script>
-
-<script type="text/javascript" src="static/js/buttons.js"></script>
 
 </body>
 
