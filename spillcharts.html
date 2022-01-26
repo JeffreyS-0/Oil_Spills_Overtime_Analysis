@@ -13,6 +13,7 @@
     
     <!-- The CSS -->
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
+	<link rel="stylesheet" type="text/css" href="static\css\spillcharts.css">
 
     <script src='https://d3js.org/d3.v5.min.js'></script>
     <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
@@ -81,8 +82,9 @@
 				</div>
 			</div><!-- End col-md-6 -->
 		<div class="col-sm-6 nopadding">
-				
-        	<img src="Analysis/Images/percentages_table.png"></a>
+			<div id="percentages-table">
+        		<img src="Analysis/Images/percentages_table.png">
+			</div>
 		</div><!-- End col-md-6 -->
 
 			<div class="clearfix"></div><!-- End clearfix -->
@@ -94,8 +96,10 @@
         
 				</div>
 			</div><!-- End col-md-6 -->
-			<div class="col-sm-6 nopadding">
-				<img src="Analysis/Images/water_contamination_table.png">
+			<div class="col-sm-12 nopadding">
+				<div id="contamination-table">
+					<img src="Analysis/Images/water_contamination_table.png">
+				</div>
         </div><!-- End col-md-6 -->
 	</div>
 </section>
@@ -113,8 +117,9 @@
 				</div>
 			</div><!-- End col-md-6 -->
 			<div class="col-sm-6 nopadding">
-				
-        <img src="Analysis/Images/cause_boxplot.png"></a>
+				<div id="boxplot-img">
+        			<img src="Analysis/Images/cause_boxplot.png">
+				</div>
 			</div><!-- End col-md-6 -->
 
 			<div class="clearfix"></div><!-- End clearfix -->
@@ -127,7 +132,9 @@
 				</div>
 			</div><!-- End col-md-6 -->
 			<div class="col-sm-6 nopadding">
-				<img src="Analysis/Images/year_boxplot.png">
+				<div id="boxplot-year">
+					<img src="Analysis/Images/year_boxplot.png">
+				</div>
         </div><!-- End col-md-6 -->
 	</div>
 </section>
