@@ -22,7 +22,9 @@ body,
   opacity: 0.7;
 }
 
-  
+#line_chart {
+    padding-left: 1em;
+}
 /*
 	Rocket Internet by TEMPLATE STOCK
     templatestock.co @templatestock
@@ -36,59 +38,87 @@ body
     color: #41484b;
 }
 
-
-
 /* Heder */
-.tab {
-    height: 50px;
-    position: relative;
-    margin: 0;
-    transform: translateX(35%);
+.header {
+    padding: 8em;
+    background-image: url("https://i.postimg.cc/13qKLjT2/Header3.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+        background-position-x: center;
+        background-position-y: center;
 }
-.tablinks {
-    height: 35px;
-    text-align: center;
+
+.navigation a {
     display: inline-block;
-    background-color: #424141;
-    border-color: #424141;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.navigation ul {
+    list-style: none;
+        list-style-position: outside;
+        list-style-image: none;
+        list-style-type: none;
+    padding: 0;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+}
+
+.navigation a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Arial, Helvetica, sans-serif";
+    font-size: 27px;
+    font-weight: bold;
     color: white;
 }
-.jumbotron {
-    height: 400px;
-    background-image: url('../images/Header3.jpg');
-    background-size: 100% 100%;
+
+nav a:hover {
+    color: white;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: white;
+    position: absolute;
+    transition: all ease-in-out 300ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+.header h1 {
     text-align: center;
+    padding-top: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    color: white;
 }
-
-.jumbotron2 {
-    height: 400px;
-    background-image: url('../images/header2.jpg');
-    background-size: 100% 100%;
-    text-align: center;
-}
-
-.header-text h1
-{
-    font-size: 60px;
-    color: #fff;
-}
-
-.header-text .vertical-line
-{
-    height: 2px;
-    background-color: #fff;
-    width: 150px;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom: 30px;
-}
-
-.header-text p
-{
-    font-size: 26px;
-    color: #fff;
-}
-
 
 /* feature */
 .feature img

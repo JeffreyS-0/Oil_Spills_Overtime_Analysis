@@ -37,7 +37,6 @@ Plotly.d3.json(data_json, Data => {
             customdata: ['This is a tet']
         }                
         let layout = {
-            // hovermode: false,
             title: "<b>Total Oil Spills Vs Oil Production per Year (1968 to 2021)</b>",
             yaxis:{title: "Total Oil Spills",
                 titlefont: {color: 'rgb(255, 127, 14 )'},
