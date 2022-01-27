@@ -13,124 +13,156 @@
     
     <!-- The CSS -->
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="static\css\spillcharts.css">
 
     <script src='https://d3js.org/d3.v5.min.js'></script>
     <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
 </head>
 
-<header>
-    <div class="jumbotron">
-        <div class="header-text">
-            <h1>UT Data Analytics and Visualizations</h1>
-            <div class="vertical-line"></div>
-            <p>
-                Team Yellow 
-                <br />
-                Statistics and Visualizations About Oil Spills
-            </p>
-        </div><!-- End HeaderText -->
-    </div><!-- End homeFullScreen -->
-</header><!-- End Header -->
+<body>
+	<div class="feature-box">
+		<div class="header">
+			<div class="col-sm-12">
+				<h1 class="main-title">Exploratory Analysis on Oil Spill Data</h1>
+				<nav class="navigation">
+					<ul>
+						<li class="nav-list">
+							<a href="index.html"
+								::before>
+								Home
+							</a>
+						</li>
+						<li class="nav-list">
+							<a href="map.html"
+								::before>
+								Interactive Spill Map
+							</a>
+						</li>
+						<li class="nav-list">
+							<a href="spillcharts.html"
+								::before>
+								Spill Stats Charts
+							</a>
+						</li>
+						<li class="nav-list">
+							<a href="machlearn.html"
+								::before>
+								Machine Learning Model
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
 
-<div class="tab">
-	<nav>
-		<ul>
-			<li>
-				<button class="tablinks" onclick="goToHome()" value="Home">Home</button>
-				<button class="tablinks" onclick="ISM()" value="Interactive Spill Map">Interactive Spill Map</button>
-				<button class="tablinks" onclick="SSC()" value="Spill Stats Charts">Spill Stats Charts</button>
-				<button class="tablinks" onclick="ML()" value="Unsupervised Machine Learning">Unsupervised Machine Learning</button>
-			</li>
-		</ul>
-	</nav>
-</div>
-
-<!-- Pie Chart -->
-<section class="feature">
+    <!-- Pie Chart -->
+    <section class="feature">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-sm-6">
-				<div class="feature-box">
-					<h1>Interactive Pie Chart</h1>
-					<p><b>What types of oil spills are there and which happen most often?</b>
+            <div class="col-sm-12">
+                <div class="feature-box">
+                    <h1>Interactive Pie Chart</h1>
+                    <p><b>What types of oil spills are there and which happen most often?</b>
                     <p>Hover your mouse over any slice on the Cause by Incident pie chart below! A box appears to explain what oil spill cause that slice represents, how many incidents there were(out of 4,640), and the percentage of that cause from the total.</p>
                     </p>
-            <div class="col-md-12 col-sm-12">
+                </div>
+            </div>
+            <div class="col-sm-12">
                 <div id='pie_chart'></div>
                 <script src='Analysis/Pie.js'></script>
             </div>
         </div>
-    </div>
 
-<!-- Stats Charts -->
-<section class="feature">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6 col-sm-6">
-				<div class="feature-box">
-					<h1>Interesting Statistics About Oil Spills</h1>
-					<p><small>Disclaimer: The data found for this project was pulled from the Department of Transportation website. From the year 2010 on, the data was cleaner and more consistent, so (aside from the Year Boxplot) this page uses data points from the year 2010 until November 2021.</small>
-            <p><b>How dangerous are oil spills?</b></p>
-            <p>When thinking about the consequences of oil spills, questions of safety come to mind. Are workers hurt? Is the environment hurt? The table answers these questions and others by showing how often this occurred in about 4,640 incidents. </p>
-        </p>
-				</div>
-			</div><!-- End col-md-6 -->
-			<div class="col-md-6 col-sm-6 nopadding">
-				
-        <img src="Analysis/Images/percentages_table.png"></a>
-			</div><!-- End col-md-6 -->
+        </section>
 
-			<div class="clearfix"></div><!-- End clearfix -->
-            
-            <div class="col-md-6 col-sm-6">
-				<div class="feature-box">
-					<h1>Water Contamination</h1>
-					<p> When looking at the percentage of times an incident led to water contamination, you may think to yourself, what was the water contaminated with? 
-                        The table shows what types of oils were involved and in how many incidents since 2010.</p>
-        
-				</div>
-			</div><!-- End col-md-6 -->
-			<div class="col-md-6 col-sm-6 nopadding">
-				<img src="Analysis/Images/water_contamination_table.png">
-        </div><!-- End col-md-6 -->
-		</div>
+        <!-- Stats Charts -->
+        <section class="feature">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="feature-box">
+                        <h1>Interesting Statistics About Oil Spills</h1>
+                        <p><small>Disclaimer: The data found for this project was pulled from the Department of Transportation website. From the year 2010 on, the data was cleaner and more consistent, so (aside from the Year Boxplot) this page uses data points from the year 2010 until November 2021.
+                            </small>
+                            <p><b>How dangerous are oil spills?</b></p>
+                            <p>When thinking about the consequences of oil spills, questions of safety come to mind. Are workers hurt? Is the environment hurt? The table answers these questions and others by showing how often this occurred in about 4,640 incidents. </p>
+                        </p>
+                    </div>
+                </div><!-- End col-md-6 col-sm-6 -->
 
-<!-- Stats Plots -->
-<section class="feature">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6 col-sm-6">
-				<div class="feature-box">
-					<h1> Cause Boxplot</h1>
-					<p><b>What is a boxplot?</b>
-                    <p>A boxplot is used to depict the range of a dataset and some statistical qualities about it. You will find things like the mean, median, quartile ranges, and minimum and maximum displayed in a boxplot. Within the boxes, you will see a blue line at the center which shows the median of the data. The small green triangles represent the mean. The box displays the interquartile range, and the attached whiskers on top and bottom of the box show the minimum and maximums of the data (excluding outliers).
-                    </br><small>Please note: Outliers were removed for cleaner data and better visuals. </small></p>
-                    <p><b>Cause Boxplot</b>
-                    <p>For the plot below, we are looking at the cost of incidents. The data is split into 8 categories so that we can visually compare between the cost of events with different causes. At first glance, it is evident that oil spills caused by excavation damage have the highest maximum. However, the true maximum of the entire dataset is an outlier in the 'Material Failure of Pipe or Weld' category that cost $840,526,118. </p>
-                    </p>
-				</div>
-			</div><!-- End col-md-6 -->
-			<div class="col-md-6 col-sm-6 nopadding">
-				
-        <img src="Analysis/Images/cause_boxplot.png"></a>
-			</div><!-- End col-md-6 -->
+                <div class="col-sm-6 nopadding">  
+                    <div id='percentages-table'>
+                        <img src="Analysis/Images/percentages_table.png">
+                    </div>
+                </div><!-- End col-md-6 -->
 
-			<div class="clearfix"></div><!-- End clearfix -->
-            
-            <div class="col-md-6 col-sm-6">
-				<div class="feature-box">
-					<h1>Year Boxplot</h1>
-					<p>This plot, like the Cause Boxplot, shows cost of oil spill incidents. The data here is split into ranges of 10-year periods. It is worth mentioning that the wild outlier we talked about before which cost $840,526,118 would have fallen into the 2001-2010 category as it occurred on 07/25/2010.
-                    </br><small>Please note: Cost is not adjusted for inflation. </small>
-                    </p>
-				</div>
-			</div><!-- End col-md-6 -->
-			<div class="col-md-6 col-sm-6 nopadding">
-				<img src="Analysis/Images/year_boxplot.png">
-        </div><!-- End col-md-6 -->
-		</div>
+                <div class="clearfix"></div><!--End clearfix -->
+            </div> 
 
-<body>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="feature-box">
+                        <h1>Water Contamination</h1>
+                        <p> When looking at the percentage of times an incident led to water contamination, you may think to yourself, what was the water contaminated with? 
+                            The table shows what types of oils were involved and in how many incidents since 2010.
+                        </p>
+                    </div>
+                </div><!-- End col-md-6 -->
+
+                <div class="col-sm-6 nopadding">
+                    <div id='contamination-table'>
+                        <img src="Analysis/Images/water_contamination_table.png">
+                    </div>
+                </div><!-- End col-md-6 -->
+            </div>
+        </section>
+
+        <!-- Stats Plots -->
+        <section class="feature">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="feature-box">
+                        <h1> Cause Boxplot</h1>
+                        <p><b>What is a boxplot?</b>
+                            <p>A boxplot is used to depict the range of a dataset and some statistical qualities about it. You will find things like the mean, median, quartile ranges, and minimum and maximum displayed in a boxplot. Within the boxes, you will see a blue line at the center which shows the median of the data. The small green triangles represent the mean. The box displays the interquartile range, and the attached whiskers on top and bottom of the box show the minimum and maximums of the data (excluding outliers).
+                            </br><small>Please note: Outliers were removed for cleaner data and better visuals. 
+                            </small></p>
+                            <p><b>Cause Boxplot</b>
+                                <p>For the plot below, we are looking at the cost of incidents. The data is split into 8 categories so that we can visually compare between the cost of events with different causes. At first glance, it is evident that oil spills caused by excavation damage have the highest maximum. However, the true maximum of the entire dataset is an outlier in the 'Material Failure of Pipe or Weld' category that cost $840,526,118. 
+                                </p>
+                            </p>
+                    </div>
+                </div><!-- End col-md-6 -->
+
+                <div class="col-sm-6 nopadding">	
+                    <div id='boxplot-img'>
+                        <img src="Analysis/Images/cause_boxplot.png">
+                    </div>
+                </div> <!-- End col-md-6 -->
+            </div>
+
+            <div class="clearfix"></div> <!-- End clearfix-->
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="feature-box">
+                        <h1>Year Boxplot</h1>
+                        <p>This plot, like the Cause Boxplot, shows cost of oil spill incidents. The data here is split into ranges of 10-year periods. It is worth mentioning that the wild outlier we talked about before which cost $840,526,118 would have fallen into the 2001-2010 category as it occurred on 07/25/2010.
+                        </br><small>Please note: Cost is not adjusted for inflation. </small>
+                        </p>
+                    </div>
+                </div><!-- End col-md-6 -->
+
+                <div class="col-sm-6 nopadding">
+                    <div id='boxplot-year'>
+                        <img src="Analysis/Images/year_boxplot.png">
+                    </div>
+                </div><!-- End col-md-6 -->
+            </div>
+        </section>
+    </div><!-- End of Container-->  
 
     <!-- Leaflet JavaScript -->
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
