@@ -11,7 +11,7 @@ var trace = {
      'Material Failure of Pipe or Weld','Natural Force Damage','Other Incident Cause', 'Other Outside Force Damage'],
     values: [944, 2124, 165, 674, 310, 217, 114, 91],
     marker: {
-        colors: ['LightBlue','Tan','Purple','GoldenRod','OliveGreen','Pink','Salmon','Yellow']},
+        colors: ['Peru','OliveDrab','DarkSeaGreen','SaddleBrown','DarkGrey','Chocolate','Tomato','Maroon']},
     type: 'pie'
 };
 
