@@ -9,15 +9,15 @@
   
   console.log(MODEL_CLASS);
   
-  // Create the trace for the bar chart. 
+  // Create the trace for the scatter plot. 
   var scatterData = [{
-    x: PC1,
-    y: PC2,
-    z: PC3,
-    text: MODEL_CLASS,
+    x: CAUSE,
+    y: ACCIDENT_PRESSURE,
+    z: AGE_OF_FACILITY,
+    text: {MODEL_CLASS},
     mode: "markers",
     marker: {
-        size: 12,
+        size: 10,
         symbol: "Circle",
         color: MODEL_CLASS,
         colorscale: "Rainbow"
@@ -26,18 +26,26 @@
     type: "scatter3d"
   }]; 
   
-  // Create the layout for the bar chart. 
+  // Create the layout for the scatter plot. 
   var scatterLayout = {
-    title: "Unsupervised Machine Learning Clusters",
-    margins: {   
-        l: 10,
-        r: 10,
-        t: 10,
-        b: 10
-      }
+    title: "Unsupervised Machine Learning Clusters"
   };
   
   // Use Plotly to plot the data with the layout. 
   Plotly.newPlot("scatter3d", scatterData, scatterLayout);
+
+
+  // Histogram of causes
+  var trace = {
+    x: CAUSE,
+    type: "histogram"
+  };
+  var data = [trace];
+  var layout = {
+      title: "Number of Incidents Occuring for each Cause",
+      xaxis: { title: "Cause of Incident" },
+      yaxis: { title: "Count"}
+  };
+  Plotly.newPlot("histogramchart", data, layout);
   
 // });

@@ -41,7 +41,7 @@ body
 /* Heder */
 .header {
     padding: 8em;
-    background-image: url("https://i.postimg.cc/13qKLjT2/Header3.png");
+    background-image: url("https://i.postimg.cc/rs44w6qd/Header3-2.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom;
@@ -174,8 +174,8 @@ nav a:hover::before {
 /* Call to Action */
 .call-top-action
 {
-    background-color: #42484c;
-    color: #fff;
+    background-color: rgb(198,102,62);
+    color: #000000;
     padding: 50px 0px;
     margin-top: 50px;
 }
@@ -183,6 +183,7 @@ nav a:hover::before {
 .call-top-action h1
 {
     font-size: 35px;
+    color: #000000;
     text-transform: uppercase;
     margin-bottom: 25px;
     margin: 0px;
@@ -194,9 +195,14 @@ nav a:hover::before {
     margin-bottom: 20px;
 }
 
+.call-top-action a
+{
+    color: #fff;
+}
+
 .call-top-action span
 {
-
+    color: #000000;
     font-size: 24px;
     font-weight: bold;
 }
@@ -225,11 +231,11 @@ footer ul li a span
 {
     width: 50px;
     height: 50px;
-    background: #42484C;
+    background: rgb(198,102,62);
     display: block;
     font-size: 30px;
     line-height: 50px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     border-radius: 50%;
 }
 
@@ -306,7 +312,7 @@ footer .copyright
     footer ul li a span {
         width: 40px;
         height: 40px;
-        background: #42484C;
+        background: rgb(198,102,62);
         display: block;
         font-size: 22px;
         line-height: 40px;
@@ -370,7 +376,7 @@ footer .copyright
     footer ul li a span {
         width: 40px;
         height: 40px;
-        background: #42484C;
+        background: rgb(198,102,62);
         display: block;
         font-size: 22px;
         line-height: 40px;
@@ -378,10 +384,17 @@ footer .copyright
         border-radius: 50%;
     }   
 
-    footer .copyright {
+    footer .copyright 
+    {
         font-size: 18px;
+        color: rgb(0, 0, 0);
     }
 
+    footer .copyright a
+    {
+        font-size: 18px;
+        color: rgb(198,102,62);
+    }
 
 
 }
@@ -525,7 +538,7 @@ body
 /* Call to Action */
 .call-top-action
 {
-    background-color: #42484c;
+    background-color: rgb(198,102,62);
     color: #fff;
     padding: 50px 0px;
     margin-top: 50px;
@@ -576,7 +589,8 @@ footer ul li a span
 {
     width: 50px;
     height: 50px;
-    background: #42484C;
+    /* background: #42484C; */
+    background-color: rgb(198,102,62);
     display: block;
     font-size: 30px;
     line-height: 50px;

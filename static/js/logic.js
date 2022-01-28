@@ -83,7 +83,7 @@ spillData.forEach(function(spill) {
     radius: spill.UNINTENTIONAL_RELEASE_BBLS/500, //radius based on spill volume
     color: "yellow"
   })
-    .bindPopup("<h2> Operator ID#: " + spill.OPERATOR_ID + "</h2><hr>"
+    .bindPopup("<h2> Operator: " + spill.NAME + "</h2><hr>"
   + "<h3> Spill Volume (bbls): " + spill.UNINTENTIONAL_RELEASE_BBLS_STR + "<br></br>" +
   "Commodity Class: " + spill.COMMODITY_RELEASED_TYPE + "<br></br>" +
   "Location: " + spill.ONSHORE_CITY_NAME + ", " + spill.ONSHORE_STATE_ABBREVIATION + "<br></br>" +
@@ -109,7 +109,7 @@ spillData.forEach(function(spill) {
     color: "#da8a67"
     // style: styleInfo
   })
-  .bindPopup("<h2> Operator ID#: " + spill.OPERATOR_ID + "</h2><hr>"
+  .bindPopup("<h2> Operator: " + spill.NAME + "</h2><hr>"
   + "<h3> Spill Volume (bbls): " + spill.UNINTENTIONAL_RELEASE_BBLS_STR + "<br></br>" +
   "Commodity Class: " + spill.COMMODITY_RELEASED_TYPE + "<br></br>" +
   "Total Monetary Damages (USD): " + spill.PRPTY_STR + "<br></br>" +
@@ -139,7 +139,7 @@ corrosionData.forEach(function(corrosion) {
     radius: corrosion.UNINTENTIONAL_RELEASE_BBLS/500, //radius based on spill volume
     color: "brown"
   })
-    .bindPopup("<h2> Operator ID#: " + corrosion.OPERATOR_ID + "</h2><hr>"
+    .bindPopup("<h2> Operator: " + corrosion.NAME + "</h2><hr>"
   + "<h3> Spill Volume (bbls): " + corrosion.UNINTENTIONAL_RELEASE_BBLS_STR + "<br></br>" +
   "Commodity Class: " + corrosion.COMMODITY_RELEASED_TYPE + "<br></br>" +
   "Location: " + corrosion.ONSHORE_CITY_NAME + ", " + corrosion.ONSHORE_STATE_ABBREVIATION + "<br></br>" +
@@ -171,7 +171,7 @@ equipfailData.forEach(function(equipfail) {
     radius: equipfail.UNINTENTIONAL_RELEASE_BBLS/500, //radius based on spill volume
     color: "#aaf0d1"
   })
-    .bindPopup("<h2> Operator ID#: " + equipfail.OPERATOR_ID + "</h2><hr>"
+    .bindPopup("<h2> Operator: " + equipfail.NAME + "</h2><hr>"
   + "<h3> Spill Volume (bbls): " + equipfail.UNINTENTIONAL_RELEASE_BBLS_STR + "<br></br>" +
   "Commodity Class: " + equipfail.COMMODITY_RELEASED_TYPE + "<br></br>" +
   "Location: " + equipfail.ONSHORE_CITY_NAME + ", " + equipfail.ONSHORE_STATE_ABBREVIATION + "<br></br>" +
@@ -198,7 +198,7 @@ excavationData.forEach(function(excavation) {
     radius: excavation.UNINTENTIONAL_RELEASE_BBLS/500, //radius based on spill volume
     color: "#006400"
   })
-    .bindPopup("<h2> Operator ID#: " + excavation.OPERATOR_ID + "</h2><hr>"
+    .bindPopup("<h2> Operator: " + excavation.NAME + "</h2><hr>"
   + "<h3> Spill Volume (bbls): " + excavation.UNINTENTIONAL_RELEASE_BBLS_STR + "<br></br>" +
   "Commodity Class: " + excavation.COMMODITY_RELEASED_TYPE + "<br></br>" +
   "Location: " + excavation.ONSHORE_CITY_NAME + ", " + excavation.ONSHORE_STATE_ABBREVIATION + "<br></br>" +
@@ -225,7 +225,7 @@ incorrectData.forEach(function(incorrect) {
     radius: incorrect.UNINTENTIONAL_RELEASE_BBLS/500, //radius based on spill volume
     color: "#FED8B1"
   })
-    .bindPopup("<h2> Operator ID#: " + incorrect.OPERATOR_ID + "</h2><hr>"
+    .bindPopup("<h2> Operator: " + incorrect.NAME + "</h2><hr>"
   + "<h3> Spill Volume (bbls): " + incorrect.UNINTENTIONAL_RELEASE_BBLS_STR + "<br></br>" +
   "Commodity Class: " + incorrect.COMMODITY_RELEASED_TYPE + "<br></br>" +
   "Location: " + incorrect.ONSHORE_CITY_NAME + ", " + incorrect.ONSHORE_STATE_ABBREVIATION + "<br></br>" +
@@ -254,7 +254,7 @@ matfailData.forEach(function(matfail) {
     radius: matfail.UNINTENTIONAL_RELEASE_BBLS/500, //radius based on spill volume
     color: "#EE9A4D"
   })
-    .bindPopup("<h2> Operator ID#: " + matfail.OPERATOR_ID + "</h2><hr>"
+    .bindPopup("<h2> Operator: " + matfail.NAME + "</h2><hr>"
   + "<h3> Spill Volume (bbls): " + matfail.UNINTENTIONAL_RELEASE_BBLS_STR + "<br></br>" +
   "Commodity Class: " + matfail.COMMODITY_RELEASED_TYPE + "<br></br>" +
   "Location: " + matfail.ONSHORE_CITY_NAME + ", " + matfail.ONSHORE_STATE_ABBREVIATION + "<br></br>" +
@@ -282,7 +282,7 @@ natforceData.forEach(function(natforce) {
     radius: natforce.UNINTENTIONAL_RELEASE_BBLS/500, //radius based on spill volume
     color: "#F75D59"
   })
-    .bindPopup("<h2> Operator ID#: " + natforce.OPERATOR_ID + "</h2><hr>"
+    .bindPopup("<h2> Operator: " + natforce.NAME + "</h2><hr>"
   + "<h3> Spill Volume (bbls): " + natforce.UNINTENTIONAL_RELEASE_BBLS_STR + "<br></br>" +
   "Commodity Class: " + natforce.COMMODITY_RELEASED_TYPE + "<br></br>" +
   "Location: " + natforce.ONSHORE_CITY_NAME + ", " + natforce.ONSHORE_STATE_ABBREVIATION + "<br></br>" +
@@ -311,7 +311,7 @@ otherforceData.forEach(function(otherforce) {
     radius: otherforce.UNINTENTIONAL_RELEASE_BBLS/500, //radius based on spill volume
     color: "#F9A7B0"
   })
-    .bindPopup("<h2> Operator ID#: " + otherforce.OPERATOR_ID + "</h2><hr>"
+    .bindPopup("<h2> Operator: " + otherforce.NAME + "</h2><hr>"
   + "<h3> Spill Volume (bbls): " + otherforce.UNINTENTIONAL_RELEASE_BBLS_STR + "<br></br>" +
   "Commodity Class: " + otherforce.COMMODITY_RELEASED_TYPE + "<br></br>" +
   "Location: " + otherforce.ONSHORE_CITY_NAME + ", " + otherforce.ONSHORE_STATE_ABBREVIATION + "<br></br>" +
@@ -340,7 +340,7 @@ otherincidentData.forEach(function(otherincident) {
     radius: otherincident.UNINTENTIONAL_RELEASE_BBLS/500, //radius based on spill volume
     color: "#6960EC"
   })
-    .bindPopup("<h2> Operator ID#: " + otherincident.OPERATOR_ID + "</h2><hr>"
+    .bindPopup("<h2> Operator: " + otherincident.NAME + "</h2><hr>"
   + "<h3> Spill Volume (bbls): " + otherincident.UNINTENTIONAL_RELEASE_BBLS_STR + "<br></br>" +
   "Commodity Class: " + otherincident.COMMODITY_RELEASED_TYPE + "<br></br>" +
   "Location: " + otherincident.ONSHORE_CITY_NAME + ", " + otherincident.ONSHORE_STATE_ABBREVIATION + "<br></br>" +
