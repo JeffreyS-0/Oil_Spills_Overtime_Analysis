@@ -95,7 +95,7 @@ body
 }
 
 nav a:hover {
-    color: white;
+    color: rgb(190, 102, 62);
 }
 
 nav a::before {
@@ -117,7 +117,11 @@ nav a:hover::before {
     padding-top: 75px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 80px;
-    color: white;
+    color: white !important;
+	font-size: 40px;
+	text-shadow: -1px 1px 0 rgb(190, 102, 62),
+				  1px 1px 0 rgb(190, 102, 62),
+				 1px -1px 0 rgb(190, 102, 62);
 }
 
 /* feature */
@@ -142,6 +146,7 @@ nav a:hover::before {
     text-transform: uppercase;
     font-weight: 600;   
     margin-top: 2em;
+    color: rgb(190, 102, 62);
 }
 
 .feature-box p
@@ -270,6 +275,7 @@ footer .copyright
     .feature-box h1 {
         font-size: 25px;
         margin-top: 2em;
+        color: rgb(190, 102, 62);
     }
 
     .feature-box p {
@@ -393,7 +399,8 @@ footer .copyright
     }
 
     .feature-box h1 {
-        font-size: 30px;    
+        font-size: 30px;
+        color: rgb(190, 102, 62);    
     }
 
     .feature-box p {
@@ -493,6 +500,7 @@ body
     text-transform: uppercase;
     font-weight: 600;   
     margin-top: 2em;
+    color: rgb(190, 102, 62);
 }
 
 .feature-box p
