@@ -533,7 +533,7 @@ body
 /* Call to Action */
 .call-top-action
 {
-    background-color: #42484c;
+    background-color: rgb(190, 102, 62)!important;
     color: #fff;
     padding: 50px 0px;
     margin-top: 50px;
