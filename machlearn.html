@@ -73,13 +73,27 @@
             </div>
         </div>
 
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="feature-box">
+                        <h1>Model Development</h1>
+                        <p>After cleaning and scaling the data, the first step in developing this model was to determine the appropriate number of principal components to use. This was done by increasing the number of components until the explained variance ratio of the components added up to 95%, which resulted in 8 principal components. This means that 95% of the variance in the model can be explained by having 8 components. Next, we created an elbow curve using Kmeans to determine the ideal number of clusters. According to the elbow curve, as seen below, our model required 9 clusters. Lastly, we fit the ran the model using 9 clusters, the results of which are described in the next section.</p>
+            </div>
+        </div>
+        <div class="col-sm-6 nopadding">  
+            <div id='elbow_curve'>
+                <img src="Analysis/Images/ML_Elbow_Curve.png">
+            </div>
+        </div><!-- End col-md-6 -->
+
         <section class="feature">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="feature-box">
                             <h1>Cluster Details</h1>
-                            <p></p>
+                            <p>The age of the facility does not appear to have an impact as a wide range of ages can be seen in each cluster. The cluster with the most data points was class 1, and it consists of the equipment failure cause.  Similarly, the class 2 cluster consists of the corrosion failure cause. The pictures below show the breakdown of the three elements in classes 1 and 2. One interesting difference between these two classes is the age breakdown. This is likely because corrosion takes time, so the ages of facilities experiencing corrosion failure are going to be older. The spills that happen due to equipment failure more closely match the overall age breakdown of all the spills in the dataset. Another interesting thing to note is that the general age of the spills in this data set are quite low. This can likely be attributed to improved record keeping recently.</p>
                     <div class="col-md-12 col-sm-12">
                         
                     </div>
@@ -101,6 +115,8 @@
                     </div>
                 </div>
             </div>
+
+        
 <body>
     
     <!-- Leaflet JavaScript -->
