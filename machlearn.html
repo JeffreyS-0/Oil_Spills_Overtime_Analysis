@@ -63,8 +63,8 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="feature-box">
-                        <h1>Unsupervised Machine Learning Model Clusters</h1>
-                        <p>placeholder</p>
+                        <h1>Unsupervised Machine Learning Model Summary</h1>
+                        <p>In order to find commonalities amongst oil spills, we performed an unsupervised machine learning model to create clusters. We then compared each cluster to gain insights into similarities between oil spills since 2009. We included the main cause of each spill, whether the pressure exceeded maximum operating pressure (MOP), and the age of the facility at the time of the pill in our model. What we found is that there isn’t a unique combination of these three factors that contribute to oil spills. The chart below shows the nine clusters, hovering your mouse over the data points shows which class each is in. The nine clusters consist of eight clusters for each cause where the pressure did not exceed MOP, regardless of age, and one for when the pressure exceeded MOP, regardless of cause or age.</p>
                 <div class="col-md-12 col-sm-12">
                     <div id='scatter3d'></div>
                     <script src='Resources/ml_data.js'></script>
@@ -76,12 +76,26 @@
         <section class="feature">
             <div class="container">
                 <div class="row">
+                    <div class="col-sm-6">
+                        <div class="feature-box">
+                            <h1>Cluster Details</h1>
+                            <p></p>
+                    <div class="col-md-12 col-sm-12">
+                        
+                    </div>
+                </div>
+            </div>
+
+        <section class="feature">
+            <div class="container">
+                <div class="row">
                     <div class="col-md-6 col-sm-6">
                         <div class="feature-box">
                             <h1>Total Cause Count</h1>
                             <p>placeholder</p>
                     <div class="col-md-12 col-sm-12">
                         <div id='histogramchart'></div>
+                        <div id='histogramchart2'></div>
                         <script src='Resources/ml_data.js'></script>
                         <script src='static/js/machcharts.js'></script>
                     </div>
