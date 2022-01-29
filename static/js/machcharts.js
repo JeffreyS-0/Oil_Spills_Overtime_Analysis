@@ -47,5 +47,26 @@
       yaxis: { title: "Count"}
   };
   Plotly.newPlot("histogramchart", data, layout);
+
+
+  // Histogram of Equipment Failure ages
+  function filterClass1(cause) {
+    return cause.CAUSE === "EQUIPMENT FAILURE";
+  }
+  var filteredClass1 = data.filter(filterClass1);
+  console.log(filteredClass1);
+  var Class1Ages = filteredClass1.map(age => age.AGE_OF_FACILITY);
+
+  var class1trace = {
+    x: Class1Ages,
+    type: "histogram"
+  };
+  var class1data = [class1trace];
+  var class1layout = {
+      title: "Ages of Facilities with Spills Resulting from Equipment Failures",
+      xaxis: { title: "Age of Facility at Time of Incident" },
+      yaxis: { title: "Count"}
+  };
+  Plotly.newPlot("histogramchart2", class1data, class1layout);
   
 // });
