@@ -28,6 +28,9 @@
   
   // Create the layout for the scatter plot. 
   var scatterLayout = {
+    autosize: false,
+    width: 1000,
+    height: 600,
     title: "Unsupervised Machine Learning Clusters"
   };
   
@@ -44,14 +47,20 @@
   var layout = {
       title: "Number of Incidents Occuring for each Cause",
       xaxis: { title: "Cause of Incident" },
-      yaxis: { title: "Count"}
+      yaxis: { title: "Count"},
+      margins: {
+        l: 100,
+        r: 100,
+        t: 100,
+        b: 100
+      }
   };
   Plotly.newPlot("histogramchart", data, layout);
 
 
   // Histogram of Equipment Failure ages
-  function filterClass1(cause) {
-    return cause.CAUSE === "EQUIPMENT FAILURE";
+  function filterClass1(cause1) {
+    return cause1.CAUSE === "EQUIPMENT FAILURE";
   }
   var filteredClass1 = data.filter(filterClass1);
   console.log(filteredClass1);
