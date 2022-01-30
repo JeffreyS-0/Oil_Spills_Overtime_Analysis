@@ -1,5 +1,9 @@
-# Oil_Spills_Overtime_Analysis
+# Exploratory Analysis over Pipeline Incident Data
 Team Yellow: Aaron Scheet, Amy Velasquez, Natalee Turner, Rachel McKinnon, Jeffrey Sykora
+
+
+![Header3 2](https://user-images.githubusercontent.com/69607218/151723331-65f42e44-8651-44b1-ad00-fe0f3c61b8f5.png)
+
 
 ## Summary
 With the millions of miles of pipelines across the US moving liquid or gas products from fields between different entities on and offshore, 
