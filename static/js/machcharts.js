@@ -14,7 +14,7 @@
     x: CAUSE,
     y: ACCIDENT_PRESSURE,
     z: AGE_OF_FACILITY,
-    text: {MODEL_CLASS},
+    text: MODEL_CLASS,
     mode: "markers",
     marker: {
         size: 10,
@@ -46,14 +46,16 @@
   var data = [trace];
   var layout = {
       title: "Number of Incidents Occuring for each Cause",
-      xaxis: { title: "Cause of Incident" },
+      width: 900,
+      height: 700,
+      xaxis: {
+        automargin: true,
+        tickangle: 45,
+        title: {
+          text: "Cause of Incident",
+          standoff: 10
+        }},
       yaxis: { title: "Count"},
-      margins: {
-        l: 100,
-        r: 100,
-        t: 100,
-        b: 100
-      }
   };
   Plotly.newPlot("histogramchart", data, layout);
 
