@@ -171,10 +171,23 @@ nav a:hover::before {
     cursor: pointer;
 }
 
-.portfolio .last-img
+#michigan_spill_blurb
 {
-    margin-bottom: 20px;
+    padding-left: 1em;
 }
+
+.portfolio #map-last-img
+{
+    height: 600px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* .portfolio #map-last-img img
+{
+    display:block;
+} */
 
 /* Call to Action */
 .call-top-action
@@ -530,6 +543,7 @@ body
     font-weight: 600;
     text-align: center;
     margin: 50px 0px;
+    color: rgb(190, 102, 62)
 }
 
 .portfolio img
@@ -540,7 +554,11 @@ body
 
 .portfolio .last-img
 {
-    margin-bottom: 20px;
+    height: 800px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto
+
 }
 
 /* Call to Action */

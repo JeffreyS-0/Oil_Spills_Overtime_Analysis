@@ -1,21 +1,25 @@
 #percentages-table {
     width: 1050px;
-    padding-left: 15em;
+    margin-left: auto;
+    margin-right: auto
 }
 
 #contamination-table {
     width: 1050px;
-    padding-left: 15em;
+    margin-left: auto;
+    margin-right: auto
 }
 
 #boxplot-img {
     height: 800px;
     width: 800px;
-    padding-left: 18em;
+    margin-left: auto;
+    margin-right: auto
 }
 
 #boxplot-year {
     height: 800px;
     width: 800px;
-    padding-left: 18em;
+    margin-left: auto;
+    margin-right: auto
 }
