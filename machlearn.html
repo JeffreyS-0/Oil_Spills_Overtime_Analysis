@@ -24,7 +24,7 @@
     <div class="feature-box">
         <div class="header">
             <div class="col-sm-12">
-		        <h1 class="main-title">Exploratory Analysis on Pipeline Incident Data</h1>
+		        <h1 class="main-title">Exploratory Analysis on Oil Spill Data</h1>
 		        <nav class="navigation">
 			        <ul>
 				        <li class="nav-list">
@@ -67,8 +67,6 @@
                         <p>In order to find commonalities amongst oil spills, we performed an unsupervised machine learning model to create clusters. We then compared each cluster to gain insights into similarities between oil spills since 2009. We included the main cause of each spill, whether the pressure exceeded maximum operating pressure (MOP), and the age of the facility at the time of the pill in our model. What we found is that there isn’t a unique combination of these three factors that contribute to oil spills. The chart below shows the nine clusters, hovering your mouse over the data points shows which class each is in. The nine clusters consist of eight clusters for each cause where the pressure did not exceed MOP, regardless of age, and one for when the pressure exceeded MOP, regardless of cause or age.</p>
                 <div class="col-md-12 col-sm-12">
                     <div id='scatter3d'></div>
-                    <script src='Resources/ml_data.js'></script>
-                    <script src='static/js/machcharts.js'></script>
                 </div>
             </div>
         </div>
@@ -85,7 +83,7 @@
             <div id='elbow_curve'>
                 <img src="Analysis/Images/ML_Elbow_Curve.png">
             </div>
-        </div><!-- End col-md-6 -->
+        </div>
 
         <section class="feature">
             <div class="container">
@@ -95,8 +93,15 @@
                             <h1>Cluster Details</h1>
                             <p>The age of the facility does not appear to have an impact as a wide range of ages can be seen in each cluster. The cluster with the most data points was class 1, and it consists of the equipment failure cause.  Similarly, the class 2 cluster consists of the corrosion failure cause. The pictures below show the breakdown of the three elements in classes 1 and 2. One interesting difference between these two classes is the age breakdown. This is likely because corrosion takes time, so the ages of facilities experiencing corrosion failure are going to be older. The spills that happen due to equipment failure more closely match the overall age breakdown of all the spills in the dataset. Another interesting thing to note is that the general age of the spills in this data set are quite low. This can likely be attributed to improved record keeping recently.</p>
                     <div class="col-md-12 col-sm-12">
-                        
                     </div>
+                </div>
+            </div>
+            <div class="col-sm-6 nopadding">  
+                <div id='Class_tables'>
+                    <h2>Class 1 Breakdown</h2>
+                    <img src="Analysis/Images/Class1.png">
+                    <h2>Class 2 Breakdown</h2>
+                    <img src="Analysis/Images/Class2.png">
                 </div>
             </div>
 
@@ -109,9 +114,9 @@
                             <p>placeholder</p>
                     <div class="col-md-12 col-sm-12">
                         <div id='histogramchart'></div>
+                    </div>
+                    <div class="col-md-12 col-sm-12">
                         <div id='histogramchart2'></div>
-                        <script src='Resources/ml_data.js'></script>
-                        <script src='static/js/machcharts.js'></script>
                     </div>
                 </div>
             </div>
@@ -123,6 +128,10 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
     integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
     crossorigin=""></script>
+
+    <!-- Reference js files -->
+    <script src='Resources/ml_data.js'></script>
+    <script src='static/js/machcharts.js'></script>
     
 </body>
 </html>
