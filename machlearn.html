@@ -13,6 +13,7 @@
     
     <!-- The CSS -->
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="static/css/machlearn.css">
 
     <!-- Plotly and d3-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
@@ -110,14 +111,15 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
                         <div class="feature-box">
-                            <h1>Total Cause Count</h1>
-                            <p>placeholder</p>
+                            <h1>Summary</h1>
+                            <p>While the unsupervised machine learning model did not provide the exact results we were hoping for, it did help us to gain additional insights into the pipeline incident data. The most likely cause of a pipeline incident is equipment failure by far (almost double the next cause), and likely within the first 2 years of operation. The second most likely cause of a pipeline incident is due to corrosion and the third is due to incorrect operation. The chart below shows the total count for each incident cause since 2009. For pipeline operators, this information could help determine where to allocate resources and monitoring in order to avoid pipeline incidents.</p>
                     <div class="col-md-12 col-sm-12">
                         <div id='histogramchart'></div>
                     </div>
+                    <!-- work in progress
                     <div class="col-md-12 col-sm-12">
                         <div id='histogramchart2'></div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
