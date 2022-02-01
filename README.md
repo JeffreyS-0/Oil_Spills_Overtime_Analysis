@@ -19,3 +19,8 @@ Below is a link to our website that we created and we hope you enjoy it as much 
 
 ## Webpage
 https://jeffreys-0.github.io/Oil_Spills_Overtime_Analysis/
+
+## Resources
+We pulled our data from the PHMSA (Pipeline and Hazardous Materials Safety Administration).
+
+https://www.phmsa.dot.gov/data-and-statistics/pipeline/distribution-transmission-gathering-lng-and-liquid-accident-and-incident-data
