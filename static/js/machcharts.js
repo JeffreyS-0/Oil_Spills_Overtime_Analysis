@@ -29,7 +29,7 @@
   // Create the layout for the scatter plot. 
   var scatterLayout = {
     autosize: false,
-    width: 1000,
+    width: 1100,
     height: 600,
     title: "Unsupervised Machine Learning Clusters"
   };
@@ -39,45 +39,67 @@
 
 
   // Histogram of causes
-  var trace = {
-    x: CAUSE,
-    type: "histogram"
-  };
-  var data = [trace];
-  var layout = {
-      title: "Number of Incidents Occuring for each Cause",
-      width: 900,
-      height: 700,
-      xaxis: {
-        automargin: true,
-        tickangle: 45,
-        title: {
-          text: "Cause of Incident",
-          standoff: 10
-        }},
-      yaxis: { title: "Count"},
-  };
-  Plotly.newPlot("histogramchart", data, layout);
+  //var trace = {
+    //x: CAUSE,
+    //type: "histogram"
+  //};
+  //var data = [trace];
+  //var layout = {
+      //title: "Number of Incidents Occuring for each Cause",
+      //width: 1200,
+      //height: 600,
+      //xaxis: {
+        //automargin: true,
+        //tickangle: 45,
+        //title: {
+          //text: "Cause of Incident",
+          //standoff: 10
+        //}},
+      //yaxis: { title: "Count"},
+  //};
+  //Plotly.newPlot("histogramchart", data, layout);
 
 
   // Histogram of Equipment Failure ages
-  function filterClass1(cause1) {
-    return cause1.CAUSE === "EQUIPMENT FAILURE";
-  }
-  var filteredClass1 = data.filter(filterClass1);
-  console.log(filteredClass1);
-  var Class1Ages = filteredClass1.map(age => age.AGE_OF_FACILITY);
+  // Create variables that hold each item.
+  var Class1Ages = class1data.map(age => age.AGE_OF_FACILITY);
 
   var class1trace = {
     x: Class1Ages,
+    marker: {
+      color: 'OliveDrab',
+    },
     type: "histogram"
   };
   var class1data = [class1trace];
   var class1layout = {
       title: "Ages of Facilities with Spills Resulting from Equipment Failures",
+      width: 1000,
+      height: 600,
       xaxis: { title: "Age of Facility at Time of Incident" },
       yaxis: { title: "Count"}
   };
   Plotly.newPlot("histogramchart2", class1data, class1layout);
+
+  // Histogram of Corrosion Failure ages
+  // Create variables that hold each item.
+  var Class2Ages = class2data.map(age => age.AGE_OF_FACILITY);
+
+  var class2trace = {
+    x: Class2Ages,
+    marker: {
+      color: 'OliveDrab',
+    },
+    type: "histogram"
+  };
+  var class2data = [class2trace];
+  var class2layout = {
+      title: "Ages of Facilities with Spills Resulting from Equipment Failures",
+      width: 1000,
+      height: 600,
+      xaxis: { title: "Age of Facility at Time of Incident" },
+      yaxis: { title: "Count"}
+  };
+  Plotly.newPlot("histogramchart3", class2data, class2layout);
   
 // });
