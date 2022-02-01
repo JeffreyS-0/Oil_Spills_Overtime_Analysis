@@ -181,8 +181,7 @@ nav a:hover::before {
     height: 600px;
     width: 600px;
     margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 0
+    margin-right: auto
 }
 
 /* .portfolio #map-last-img img
