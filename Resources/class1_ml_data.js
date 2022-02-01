@@ -1,0 +1,9032 @@
+var class1data = [
+    {
+      "": 0,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 5,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 8,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 10,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 14,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 47,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 17,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 18,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 21,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 25,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 29,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 20,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 32,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 36,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 37,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 43,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 18,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 49,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 53,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 30,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 55,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 55,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 58,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 69,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 63,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 75,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 83,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 36,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 84,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 16,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 93,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 30,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 96,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 97,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 98,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 100,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 110,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 41,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 112,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 18,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 113,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 13,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 116,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 125,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 51,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 126,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 130,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 136,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 140,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 142,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 53,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 145,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 149,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 53,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 152,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 154,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 42,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 155,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 156,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 157,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 160,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 161,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 162,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 14,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 166,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 172,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 68,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 173,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 174,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 51,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 175,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 50,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 178,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 182,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 185,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 188,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 189,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 191,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 192,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 14,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 196,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 23,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 199,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 38,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 200,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 204,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 37,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 205,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 206,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 24,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 210,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 212,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 13,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 219,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 89,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 220,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 23,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 221,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 226,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 227,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 231,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 234,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 243,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 22,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 251,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 252,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 254,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 258,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 16,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 259,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 261,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 13,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 266,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 267,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 29,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 268,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 273,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 274,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 278,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 39,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 279,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 280,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 281,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 33,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 282,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 284,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 69,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 289,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 90,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 296,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 297,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 64,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 303,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 306,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 307,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 308,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 313,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 29,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 315,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 49,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 318,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 319,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 323,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 33,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 326,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 327,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 56,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 330,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 331,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 49,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 332,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 337,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 346,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 350,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 60,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 352,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 354,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 67,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 355,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 357,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 360,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 361,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 363,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 365,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 20,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 366,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 371,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 372,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 11,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 373,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 39,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 374,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 375,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 379,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 380,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 65,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 381,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 382,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 384,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 385,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 387,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 25,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 388,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 389,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 392,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 13,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 397,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 398,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 13,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 400,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 401,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 402,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 406,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 49,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 407,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 36,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 409,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 412,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 414,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 419,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 14,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 431,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 432,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 435,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 39,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 439,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 440,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 442,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 65,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 443,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 25,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 447,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 49,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 449,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 451,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 13,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 454,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 457,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 48,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 459,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 37,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 460,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 461,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 34,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 464,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 465,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 29,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 466,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 11,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 468,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 50,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 469,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 44,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 472,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 41,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 473,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 476,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 477,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 58,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 478,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 12,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 479,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 55,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 483,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 484,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 485,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 486,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 27,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 487,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 29,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 488,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 489,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 492,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 12,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 493,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 495,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 499,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 502,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 505,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 507,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 508,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 12,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 511,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 518,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 31,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 520,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 50,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 523,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 525,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 529,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 40,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 533,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 58,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 536,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 543,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 555,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 557,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 25,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 558,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 560,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 561,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 566,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 572,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 23,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 573,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 578,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 23,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 582,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 584,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 585,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 586,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 42,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 593,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 596,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 599,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 16,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 600,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 601,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 602,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 78,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 605,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 606,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 607,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 17,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 610,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 611,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 60,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 616,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 620,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 621,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 622,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 625,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 626,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 627,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 14,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 630,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 635,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 40,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 637,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 639,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 640,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 641,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 645,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 646,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 647,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 20,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 653,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 655,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 656,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 657,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 42,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 659,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 662,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 64,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 666,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 669,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 41,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 670,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 674,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 41,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 686,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 687,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 19,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 689,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 692,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 698,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 705,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 57,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 708,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 36,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 710,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 712,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 713,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 715,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 54,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 716,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 720,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 721,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 723,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 69,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 726,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 730,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 732,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 733,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 736,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 12,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 741,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 37,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 745,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 754,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 756,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 757,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 761,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 762,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 764,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 765,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 769,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 770,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 771,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 779,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 783,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 40,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 784,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 788,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 789,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 790,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 54,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 793,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 794,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 795,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 56,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 804,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 809,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 77,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 811,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 814,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 816,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 49,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 819,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 823,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 824,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 27,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 825,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 12,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 826,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 827,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 828,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 27,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 831,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 835,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 841,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 67,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 842,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 843,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 844,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 44,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 845,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 849,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 851,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 852,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 854,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 14,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 859,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 865,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 866,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 867,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 22,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 870,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 49,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 872,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 21,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 873,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 874,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 876,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 880,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 882,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 12,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 883,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 887,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 890,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 896,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 903,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 907,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 908,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 910,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 911,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 11,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 913,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 37,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 925,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 50,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 930,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 16,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 932,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 935,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 936,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 938,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 939,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 26,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 941,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 943,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 946,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 53,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 947,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 18,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 948,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 950,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 951,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 16,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 953,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 954,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 24,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 955,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 20,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 958,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 68,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 960,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 969,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 970,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 972,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 973,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 17,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 976,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 57,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 978,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 11,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 981,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 982,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 984,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 988,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 994,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 995,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 17,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 997,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 20,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1000,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1004,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 63,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1005,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 24,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1006,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 29,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1007,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1008,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1009,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 22,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1010,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1011,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 33,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1014,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 49,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1015,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 43,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1016,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1019,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1020,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 21,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1021,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1023,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 32,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1024,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 37,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1026,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1027,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1031,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1036,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1037,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1038,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1039,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1041,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1042,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 50,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1043,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1046,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1047,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1048,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1051,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1054,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 28,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1067,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 22,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1071,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1078,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 32,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1080,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1081,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1083,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1085,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 60,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1086,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1090,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 18,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1091,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 32,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1092,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1093,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1102,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 32,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1103,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1105,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1108,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1115,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1117,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 29,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1118,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1119,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1124,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 15,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1128,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1130,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1134,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1136,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1141,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1142,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1148,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1150,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1152,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1154,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1157,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 25,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1158,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1160,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1161,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 15,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1165,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 27,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1167,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 47,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1172,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1176,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1178,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1180,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 59,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1182,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1184,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 95,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1185,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 12,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1186,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1187,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1188,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1190,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1193,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1194,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 20,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1195,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 16,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1196,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1197,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 23,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1198,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1201,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 64,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1202,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 66,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1205,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1206,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1207,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1211,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 45,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1212,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 22,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1216,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 33,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1217,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 22,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1223,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 15,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1226,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1227,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 11,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1228,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1229,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 38,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1230,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1232,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1233,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1234,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1237,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1238,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 20,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1242,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1243,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1246,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 22,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1248,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1249,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1251,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1252,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 55,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1253,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1254,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 12,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1256,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1257,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1258,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1261,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1263,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1265,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 51,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1266,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1268,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1271,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1272,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 79,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1273,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 38,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1274,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1276,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 20,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1278,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1280,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 79,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1282,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1283,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 18,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1288,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1291,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1292,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1301,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1303,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1304,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1305,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1310,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 36,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1311,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1314,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1316,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1321,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1326,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 37,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1328,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 13,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1330,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 15,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1333,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 13,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1334,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1336,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 43,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1337,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 20,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1341,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1342,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1343,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 25,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1345,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1346,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1349,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1352,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1353,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1354,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1355,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1357,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1358,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1360,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1365,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1367,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1368,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 15,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1373,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1375,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 38,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1376,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1378,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1380,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1381,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1382,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1387,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1388,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1389,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1391,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1392,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1397,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1399,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1404,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1405,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1409,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 32,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1413,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1416,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1422,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1424,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1425,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1428,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1429,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1432,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1433,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 32,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1437,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 47,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1439,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 55,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1441,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1442,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 37,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1445,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1446,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1449,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1450,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1451,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1452,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 70,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1454,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1457,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1458,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1460,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1462,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1463,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 12,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1466,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 47,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1469,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 32,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1470,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1471,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1472,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 43,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1479,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1482,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1483,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1488,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1489,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1491,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 33,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1495,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1499,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1504,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1510,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 40,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1512,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 20,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1515,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1517,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1519,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 59,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1521,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1527,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1530,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1538,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 23,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1539,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 25,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1543,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1544,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 31,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1545,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1546,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1547,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1554,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1557,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1560,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 49,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1561,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1563,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 49,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1571,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 55,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1573,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 26,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1584,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1585,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1591,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 11,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1593,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1596,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 60,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1598,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1600,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1602,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1603,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1610,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1611,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1612,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 39,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1619,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1622,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1624,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1629,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 46,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1631,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1633,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1634,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1640,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1649,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1652,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1656,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1662,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1667,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1669,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1671,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 26,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1673,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1674,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 20,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1675,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1677,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1679,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1680,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1683,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 45,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1684,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1689,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1690,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1697,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 53,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1698,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1701,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1702,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1705,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 59,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1708,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1713,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 14,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1716,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1719,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 37,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1721,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1724,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1729,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1730,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1732,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 43,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1734,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1737,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1739,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1741,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 25,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1743,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1745,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 26,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1746,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 53,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1748,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1750,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1752,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 47,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1755,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1757,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1759,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1760,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1763,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 47,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1764,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1766,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1768,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1769,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1770,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1773,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 32,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1777,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1780,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1781,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1782,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1784,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1785,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 20,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1786,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 46,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1795,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1797,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1798,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1799,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 37,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1814,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1815,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1820,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 71,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1821,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1823,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1826,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1828,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 68,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1829,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1830,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1833,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1838,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 44,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1840,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 65,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1842,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 11,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1845,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1847,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1851,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1852,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 11,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1854,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1858,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1859,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1864,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1867,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1870,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1873,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1875,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 19,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1876,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1877,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1879,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 40,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1883,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1885,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1887,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1890,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1891,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 29,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1894,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 16,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1896,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 56,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1899,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1900,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1904,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1915,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 21,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1918,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 14,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1919,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1927,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1928,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1929,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 19,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1931,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1935,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 54,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1937,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1938,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1939,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 45,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1940,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 15,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1941,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1942,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1947,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 43,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1949,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 24,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1954,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1955,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1956,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 43,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1957,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 38,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1958,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 66,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1961,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1962,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1970,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 42,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1971,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1974,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 21,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1980,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1981,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1982,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1988,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 21,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1989,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1991,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1993,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 55,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1994,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1995,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1997,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 56,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 1998,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2000,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2001,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 20,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2007,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2017,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 57,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2018,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 28,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2024,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 15,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2027,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2028,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 44,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2031,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 23,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2032,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2035,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 65,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2037,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 40,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2038,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2039,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 36,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2043,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2044,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2053,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 58,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2056,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 63,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2061,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 35,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2062,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2063,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2064,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2067,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2072,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 36,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2077,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2083,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2084,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2086,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 48,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2089,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2093,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2096,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 35,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2101,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 34,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2102,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2106,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 44,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2108,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2113,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2114,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2123,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2124,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2130,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2131,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2133,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2135,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 40,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2142,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 39,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2145,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2153,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2154,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2155,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2160,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2163,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 48,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2169,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 24,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2170,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 42,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2172,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 16,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2173,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2174,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 15,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2176,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2179,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2181,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2182,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2185,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 15,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2192,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2196,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 51,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2197,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2200,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2206,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2207,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2208,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 19,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2214,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 54,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2219,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 40,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2223,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 18,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2225,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2228,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 72,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2229,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2230,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2231,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 13,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2232,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 66,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2240,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2243,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2246,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2254,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 36,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2255,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 19,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2258,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2260,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 27,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2273,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 37,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2278,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2280,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2284,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 62,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2285,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2286,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 36,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2288,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2289,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2293,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 15,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2296,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2300,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2303,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 42,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2313,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 34,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2314,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2317,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2321,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2327,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2335,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2338,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2341,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 43,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2342,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2343,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2344,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2348,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2349,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2355,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2356,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2362,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2363,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2364,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 18,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2369,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 13,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2373,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2376,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2381,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2382,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 59,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2390,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2392,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2393,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2399,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 14,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2403,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2405,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 50,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2410,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2411,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2412,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2430,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2432,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 55,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2433,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2437,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2442,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2444,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2445,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2448,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 61,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2455,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 61,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2457,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 68,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2459,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2462,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2466,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 49,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2470,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 64,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2471,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2473,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2476,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2478,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 22,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2481,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2484,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 18,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2485,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2491,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2493,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 44,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2494,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 51,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2498,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2504,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2505,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2506,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2507,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2509,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2511,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 44,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2512,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2516,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 60,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2519,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2521,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 15,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2526,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2528,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 36,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2530,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2531,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 46,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2532,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2533,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2534,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 43,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2536,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2542,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 42,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2556,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2558,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2559,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2560,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2562,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 48,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2566,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 47,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2567,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 35,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2568,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2569,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2570,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2572,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2575,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2576,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 13,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2580,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 14,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2581,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 45,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2583,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2584,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 44,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2586,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2590,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 44,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2596,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2598,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2600,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2601,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 47,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2602,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2604,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2605,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2606,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2607,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 41,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2609,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2612,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2616,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2617,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2618,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 43,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2619,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 34,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2620,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2623,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2624,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2625,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2629,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2632,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2636,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 53,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2639,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2646,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 24,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2647,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 16,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2648,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2649,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2650,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2653,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2656,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 26,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2659,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2660,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 68,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2661,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2664,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2674,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 23,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2681,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2686,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2688,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2689,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2691,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2693,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2694,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2696,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2697,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 23,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2699,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2702,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 44,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2703,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 47,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2710,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2711,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2712,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2714,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 58,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2717,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2721,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2722,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2727,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 59,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2728,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 15,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2735,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 44,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2739,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2741,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2742,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2744,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 36,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2747,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 47,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2748,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2754,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2755,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2756,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2758,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2763,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2764,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 36,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2765,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2770,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 21,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2776,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 29,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2779,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 42,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2781,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 40,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2782,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2793,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2801,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2814,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 68,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2823,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2824,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2827,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 23,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2828,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2831,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 60,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2834,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2846,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 29,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2850,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 19,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2855,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2859,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2862,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2868,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 12,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2892,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 29,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2901,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2905,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2911,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2912,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2913,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 45,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2917,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 42,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2937,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2946,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2947,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2961,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 52,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2972,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 43,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2977,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 26,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2986,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2995,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 2996,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3008,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3010,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 51,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3017,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 67,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3037,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 52,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3044,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3045,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3047,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3054,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 15,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3062,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3065,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 20,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3071,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3075,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3076,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 31,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3081,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3088,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3110,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 64,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3119,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3121,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 20,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3126,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 46,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3135,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3154,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3168,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 36,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3169,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3172,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3176,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3179,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 16,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3189,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 22,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3191,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3200,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 26,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3201,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 46,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3223,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 25,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3224,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3233,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 42,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3241,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3253,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 40,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3257,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3266,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3268,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 42,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3291,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 73,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3292,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3296,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 35,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3307,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3310,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3316,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3323,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 57,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3334,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 50,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3347,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3349,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3355,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3356,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3365,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 53,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3377,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3379,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 41,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3391,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 45,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3415,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 15,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3421,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3428,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 20,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3440,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3442,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3443,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 34,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3445,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 42,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3447,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 58,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3451,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 45,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3465,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 43,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3469,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3473,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3475,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 56,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3476,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3478,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3481,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3483,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 44,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3498,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 43,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3500,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3501,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 19,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3523,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3526,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3537,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3538,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3539,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3556,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3558,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3564,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 12,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3572,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3581,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3582,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3587,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3588,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3590,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 33,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3602,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3607,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 22,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3611,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3618,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 41,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3628,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3634,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3638,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 41,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3645,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3652,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3659,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3660,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 62,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3672,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 60,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3674,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3696,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3702,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3704,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3709,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3723,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3731,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3740,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 49,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3748,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 21,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3760,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3785,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3804,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3813,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3826,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3843,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3847,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 34,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3856,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 37,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3863,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 41,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3866,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3889,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3899,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3902,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3906,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 58,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3911,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 26,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3918,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 60,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3926,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 17,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3932,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3938,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3955,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3977,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3979,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 11,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 3993,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4009,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4014,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 54,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4025,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4031,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4032,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4035,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4036,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4042,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 30,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4064,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 54,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4065,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 13,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4067,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4090,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4093,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 22,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4133,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 25,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4136,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 4,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4137,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 14,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4150,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4152,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4157,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 12,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4166,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4167,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 42,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4176,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 24,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4179,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 15,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4183,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 9,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4193,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4208,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4215,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 12,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4218,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 26,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4220,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 56,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4223,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4236,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4239,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4245,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 16,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4247,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 57,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4252,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4256,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 18,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4263,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 90,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4265,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4267,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 29,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4277,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4280,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4287,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 32,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4290,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4309,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 52,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4317,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4329,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4331,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 35,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4333,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4340,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4359,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 17,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4361,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4366,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 31,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4369,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4378,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4381,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 13,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4388,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 30,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4405,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4411,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 11,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4415,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 20,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4423,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4434,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 60,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4435,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 16,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4440,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 22,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4442,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 59,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4444,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4448,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 53,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4461,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4465,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 15,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4466,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 8,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4472,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4473,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4484,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 18,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4487,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4491,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4497,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4504,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 3,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4509,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 1,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4520,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 22,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4533,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 14,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4535,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 7,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4536,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4539,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 19,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4545,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4552,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 0,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4570,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 51,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4571,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4583,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 51,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4585,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 5,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4586,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 6,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4596,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4599,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 10,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4605,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 2,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    },
+    {
+      "": 4608,
+      "CAUSE": "EQUIPMENT FAILURE",
+      "AGE_OF_FACILITY": 30,
+      "ACCIDENT_PRESSURE": "PRESSURE DID NOT EXCEED MOP",
+      "MODEL_CLASS": 1
+    }
+  ]
