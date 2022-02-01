@@ -13,7 +13,7 @@ As a group, we decided to do our analysis over pipeline incidents because we wer
 - Where do most incidents occur?
 - Does the age of the pipeline, the internal pressure of the pipeline and the cause of the incident show any relationship with each other?
 
-Creating the website to showcase our analysis, answers all of these questions and we welcome you to join in and interat with it yourself!
+Creating the website to showcase our analysis, answers all of these questions and we welcome you to join in and interact with it yourself!
 
 Below is a link to our website that we created and we hope you enjoy it as much as we did!
 
