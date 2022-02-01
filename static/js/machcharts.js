@@ -94,7 +94,7 @@
   };
   var class2data = [class2trace];
   var class2layout = {
-      title: "Ages of Facilities with Spills Resulting from Equipment Failures",
+      title: "Ages of Facilities with Spills Resulting from Corrosion Failures",
       width: 1000,
       height: 600,
       xaxis: { title: "Age of Facility at Time of Incident" },
