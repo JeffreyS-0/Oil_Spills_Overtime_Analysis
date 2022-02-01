@@ -6,9 +6,7 @@ Team Yellow: Aaron Scheet, Amy Velasquez, Natalee Turner, Rachel McKinnon, Jeffr
 
 
 ## Summary
-With the millions of miles of pipelines across the US moving liquid or gas products from fields between different entities on and offshore, 
-pipelines are effective and mostly safe. Even so, pipeline spills or leaks do happen. These incidents are tracked by PHMSA (Pipeline and Hazardous Materials Safety Administration) and kept in a database. For this site, we used exploratory analysis methods on multiple sources to map pipeline incidents, 
-look at incidents over time, document interesting stats and identify a cause of commonality using unsupervised machine learning.
+Although pipelines stretch for hundreds of thousands of miles across the US and move liquid or gas products from fields between different entities on and offshore, they are effective and mostly safe. Even so, pipeline spills or leaks do happen. These incidents are tracked by PHMSA (Pipeline and Hazardous Materials Safety Administration) and kept in a database. For this site, we used exploratory analysis methods on multiple sources to map pipeline incidents, look at incidents over time, document interesting stats and identify a cause of commonality using unsupervised machine learning.
 
 As a group, we decided to do our analysis over pipeline incidents because we were interested in answering the following questions:
 - What are the major contributing factors that cause an incident to occur?
