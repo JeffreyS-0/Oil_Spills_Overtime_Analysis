@@ -65,7 +65,7 @@
                 <div class="col-sm-6">
                     <div class="feature-box">
                         <h1>Unsupervised Machine Learning Model Summary</h1>
-                        <p>In order to find commonalities amongst oil spills, we performed an unsupervised machine learning model to create clusters. We then compared each cluster to gain insights into similarities between oil spills since 2009. We included the main cause of each spill, whether the pressure exceeded maximum operating pressure (MOP), and the age of the facility at the time of the pill in our model. What we found is that there isn’t a unique combination of these three factors that contribute to oil spills. The chart below shows the nine clusters, hovering your mouse over the data points shows which class each is in. The nine clusters consist of eight clusters for each cause where the pressure did not exceed MOP, regardless of age, and one for when the pressure exceeded MOP, regardless of cause or age.</p>
+                        <p>In order to find commonalities amongst oil spills, we performed an unsupervised machine learning model to create clusters. We then compared each cluster to gain insights into similarities between oil spills from January 2010 to November 2021. We included the main cause of each spill, whether the pressure exceeded maximum operating pressure (MOP), and the age of the facility at the time of the spill in our model. What we found is that there isn’t a unique combination of these three factors that contribute to oil spills. The chart below shows the nine clusters, hovering your mouse over the data points shows which class each is in. The nine clusters consist of eight clusters for each cause where the pressure did not exceed MOP, regardless of age, and one for when the pressure exceeded MOP, regardless of cause or age.</p>
                 <div class="col-md-12 col-sm-12">
                     <div id='scatter3d'></div>
                 </div>
@@ -77,7 +77,7 @@
                 <div class="col-sm-6">
                     <div class="feature-box">
                         <h1>Model Development</h1>
-                        <p>After cleaning and scaling the data, the first step in developing this model was to determine the appropriate number of principal components to use. This was done by increasing the number of components until the explained variance ratio of the components added up to 95%, which resulted in 8 principal components. This means that 95% of the variance in the model can be explained by having 8 components. Next, we created an elbow curve using Kmeans to determine the ideal number of clusters. According to the elbow curve, as seen below, our model required 9 clusters. Lastly, we fit the ran the model using 9 clusters, the results of which are described in the next section.</p>
+                        <p>After cleaning and scaling the data, the first step in developing this model was to determine the appropriate number of principal components to use. This was done by increasing the number of components until the explained variance ratio of the components added up to 95%, which resulted in 8 principal components. This means that 95% of the variance in the model can be explained by having 8 components. Next, we created an elbow curve using Kmeans to determine the ideal number of clusters. According to the elbow curve, as seen below, our model required 9 clusters. Lastly, we fit and ran the model using 9 clusters, the results of which are described in the next section.</p>
             </div>
         </div>
         <div class="col-sm-6 nopadding">  
@@ -112,7 +112,7 @@
                     <div class="col-md-6 col-sm-6">
                         <div class="feature-box">
                             <h1>Summary</h1>
-                            <p>While the unsupervised machine learning model did not provide the exact results we were hoping for, it did help us to gain additional insights into the pipeline incident data. The most likely cause of a pipeline incident is equipment failure by far (almost double the next cause), and likely within the first 2 years of operation. The second most likely cause of a pipeline incident is due to corrosion and the third is due to incorrect operation. The chart below shows the total count for each incident cause since 2009. For pipeline operators, this information could help determine where to allocate resources and monitoring in order to avoid pipeline incidents.</p>
+                            <p>While the unsupervised machine learning model did not provide the exact results we were hoping for, it did help us to gain additional insights into the pipeline incident data. The most likely cause of a pipeline incident is equipment failure by far (almost double the next cause), and likely within the first 2 years of operation. The second most likely cause of a pipeline incident is due to corrosion and the third is due to incorrect operation. The chart below shows the total count for each incident cause from January 2010 until November 2021. For pipeline operators, this information could help determine where to allocate resources and monitoring in order to avoid pipeline incidents.</p>
                     <div class="col-md-12 col-sm-12">
                         <div id='histogramchart'></div>
                     </div>
