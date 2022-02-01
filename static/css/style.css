@@ -26,7 +26,6 @@ body,
     padding-left: 1em;
 }
 
-
 /*
 	Rocket Internet by TEMPLATE STOCK
     templatestock.co @templatestock
@@ -40,7 +39,7 @@ body
     color: #41484b;
 }
 
-/* Heder */
+/* Header */
 .header {
     padding: 8em;
     background-image: url("https://i.postimg.cc/rs44w6qd/Header3-2.png");
@@ -148,6 +147,12 @@ div.container .feature-box p
     padding: 20px;
 }
 
+div.feature-box p2
+{
+    font-size: 15px;
+    text-align: center;
+}
+
 .feature-box h1
 {
     font-size: 35px;
@@ -161,6 +166,18 @@ div.container .feature-box p
 {
     font-size: 25px;
     text-align: justify;
+}
+
+.feature-box p2
+{
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#underpics
+{
+    color: rgb(190, 102, 62);
 }
 
 /* Portfolio */
@@ -473,7 +490,7 @@ body
 
 
 
-/* Heder */
+/* Header */
 #homeFullScreen {
     width: 100%;
     background-repeat: no-repeat;
