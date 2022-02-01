@@ -25,6 +25,8 @@ body,
 #line_chart {
     padding-left: 1em;
 }
+
+
 /*
 	Rocket Internet by TEMPLATE STOCK
     templatestock.co @templatestock
@@ -130,6 +132,12 @@ nav a:hover::before {
     width: 100%;
 }
 
+div.container .feature-box p
+{
+    text-align: left;
+
+}
+
 .nopadding {
    padding: 0 !important;
    margin: 0 !important;
@@ -171,23 +179,29 @@ nav a:hover::before {
     cursor: pointer;
 }
 
+#portpics a
+{
+    color: rgb(190, 102, 62)
+}
+
 #michigan_spill_blurb
 {
     padding-left: 1em;
+    font-size: 25px;
 }
 
-#map-last-img
+.portfolio #map-last-img
 {
-    height: 600px;
+    height: 400px;
     width: 600px;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
-/* .portfolio #map-last-img img
+.portfolio #map-last-img a
 {
-    display:block;
-} */
+    color: rgb(190, 102, 62)
+}
 
 /* Call to Action */
 .call-top-action
