@@ -20,7 +20,7 @@
         size: 10,
         symbol: "Circle",
         color: MODEL_CLASS,
-        colorscale: "Rainbow"
+        colorscale: "Portland"
     },
     hovertemplate: 'Class: %{text} <extra></extra>',
     type: "scatter3d"
