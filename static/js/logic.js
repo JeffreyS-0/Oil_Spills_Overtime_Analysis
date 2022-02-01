@@ -53,7 +53,7 @@ let otherOutsideforce = new L.LayerGroup();
 // 2. Add a reference to the tectonic plates group to the overlays object.
 let overlays = {
   "All Spills": allSpills,
-  "Monetary Damage": propDamage,
+  "Monetary Damage": propDamage, 
   "Cause: Corrosion Failure": corrosionFailure, 
   "Cause: Equipment Failure": equipmentFailure,
   "Cause: Excavation Damage": excavationDamage,
@@ -123,9 +123,6 @@ spillData.forEach(function(spill) {
 propDamage.addTo(map);
 // -------------------------------------------------------------------------------
 
-
-
-
 // Adding Cause corrosion as separate layer:
 // Get data from corrosion.js
 let corrosionData = corrosion;
@@ -150,7 +147,7 @@ corrosionData.forEach(function(corrosion) {
   .toLocaleString() + "</h3>").addTo(corrosionFailure);
 });
 // Then we add the 'spill information' tile layer to the map
-corrosionFailure.addTo(map);
+// corrosionFailure.addTo(map);
 //-------------------------------------------------------------------------------
 
 // -------------------------------------------------------------------------------
@@ -182,7 +179,9 @@ equipfailData.forEach(function(equipfail) {
   .toLocaleString() + "</h3>").addTo(equipmentFailure);
 });
 // Then we add the 'spill information' tile layer to the map
-equipmentFailure.addTo(map);
+// equipmentFailure.addTo(map);
+
+
 //-------------------------------------------------------------------------------
 
 // Adding Cause Excavation as separate layer:
@@ -209,7 +208,9 @@ excavationData.forEach(function(excavation) {
   .toLocaleString() + "</h3>").addTo(excavationDamage);
 });
 // Then we add the 'spill information' tile layer to the map
-excavationDamage.addTo(map);
+// excavationDamage.addTo(map);
+
+
 //-------------------------------------------------------------------------------
 
 // Adding Cause incorrect operation as separate layer:
@@ -236,7 +237,9 @@ incorrectData.forEach(function(incorrect) {
   .toLocaleString() + "</h3>").addTo(incorrectOperation);
 });
 // Then we add the 'spill information' tile layer to the map
-incorrectOperation.addTo(map);
+// incorrectOperation.addTo(map);
+
+
 //-------------------------------------------------------------------------------
 
 //-------------------------------------------------------------------------------
@@ -265,7 +268,7 @@ matfailData.forEach(function(matfail) {
   .toLocaleString() + "</h3>").addTo(materialFailure);
 });
 // Then we add the 'spill information' tile layer to the map
-materialFailure.addTo(map);
+// materialFailure.addTo(map);
 
 //-------------------------------------------------------------------------------
 
@@ -293,7 +296,7 @@ natforceData.forEach(function(natforce) {
   .toLocaleString() + "</h3>").addTo(naturalForce);
 });
 // Then we add the 'spill information' tile layer to the map
-naturalForce.addTo(map);
+// naturalForce.addTo(map);
 //-----------------------------------------------------------------------------
 
 //-------------------------------------------------------------------------------
@@ -322,7 +325,7 @@ otherforceData.forEach(function(otherforce) {
   .toLocaleString() + "</h3>").addTo(otherOutsideforce);
 });
 // Then we add the 'spill information' tile layer to the map
-otherOutsideforce.addTo(map);
+// otherOutsideforce.addTo(map);
 //-----------------------------------------------------------------------------
 
 //-------------------------------------------------------------------------------
@@ -351,7 +354,7 @@ otherincidentData.forEach(function(otherincident) {
   .toLocaleString() + "</h3>").addTo(otherIncident);
 });
 // Then we add the 'spill information' tile layer to the map
-otherIncident.addTo(map);
+// otherIncident.addTo(map);
 //-----------------------------------------------------------------------------
 
 
